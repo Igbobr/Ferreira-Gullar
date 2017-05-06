@@ -2,6 +2,10 @@
 <resources>
 
     <string name="app_name">Ferreira-Gullar</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="bot1">Poemas</string>  
+    <string name="bot2">Quiz</string>
+     <string name="bot3">Bibliografia do author</string>
+     <string name="bot4">Ajuda quiz</string>
+     
 
 </resources>
