@@ -24,32 +24,35 @@
 
             <TextView
                 android:id="@+id/quiz1"
-                android:layout_width="wrap_content"
+               android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/question"
                  android:drawableBottom="@drawable/yes"   
-                android:text="Quiz 1" 
+                android:text="     Quiz 1" 
                 
                
                 />
 
             <TextView
                 android:id="@+id/quiz2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/question"
-                android:text="Quiz 2"
+                android:text="      Quiz 2"
 
-				android:layout_margin="25dp"
+				
 />
 
             <TextView
                 android:id="@+id/quiz3"
-                android:layout_width="wrap_content"
+               android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked" 
                 android:layout_height="wrap_content"
-                android:text="Quiz 3" />
+                android:text="     Quiz 3" />
         
         </LinearLayout>
         
@@ -58,38 +61,40 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" 
             android:gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
             >
 
             <TextView
                 android:id="@+id/quiz4"
-                android:layout_width="wrap_content"
+              android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                	android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked"  
-                android:text="Quiz 4" 
+                android:text="     Quiz 4" 
                 
                
                 />
 
             <TextView
                 android:id="@+id/quiz5"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked" 
-                android:text="Quiz 5"
-				android:layout_margin="25dp"
+                android:text="     Quiz 5"
 />
 
             <TextView
                 android:id="@+id/quiz6"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked" 
                 android:layout_height="wrap_content"
-                android:text="Quiz 6" />
+                android:text="     Quiz 6" />
         
         </LinearLayout>
         
@@ -102,32 +107,34 @@
 
             <TextView
                 android:id="@+id/quiz7"
-                android:layout_width="wrap_content"
+               android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked"   
-                android:text="Quiz 7" 
+                android:text="     Quiz 7" 
                 
                
                 />
 
             <TextView
                 android:id="@+id/quiz8"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked" 
-                android:text="Quiz 8"
-				android:layout_margin="25dp"
+                android:text="     Quiz 8"
 />
 
             <TextView
                 android:id="@+id/quiz9"
-                android:layout_width="wrap_content"
+               android:layout_width="0dp"
+                android:layout_weight="0.33"
                 android:drawableTop="@drawable/bloq"
                 android:drawableBottom="@drawable/locked" 
                 android:layout_height="wrap_content"
-                android:text="Quiz 9" />
+                android:text="     Quiz 9" />
         
         </LinearLayout>
 
