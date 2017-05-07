@@ -12,20 +12,30 @@ public final class R {
     }
     public static final class drawable {
         public static final int ferreira=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int layout_shadow_gray=0x7f020002;
-        public static final int titulo=0x7f020003;
+        public static final int ferreirapb=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int layout_shadow_gray=0x7f020003;
+        public static final int titulo=0x7f020004;
     }
     public static final class id {
+        public static final int botaoAvancar=0x7f06000c;
+        public static final int botaoVoltar=0x7f06000b;
         public static final int button1=0x7f060002;
         public static final int button2=0x7f060003;
         public static final int button3=0x7f060004;
         public static final int button4=0x7f060005;
+        public static final int enunciado=0x7f060007;
+        public static final int layoutPergunta=0x7f060006;
+        public static final int rb01=0x7f060009;
+        public static final int rb02=0x7f06000a;
         public static final int scrollView1=0x7f060000;
+        public static final int teste=0x7f060008;
         public static final int textView1=0x7f060001;
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
+        public static final int activity_perguntas=0x7f030001;
+        public static final int layout_pergunta=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -33,6 +43,9 @@ public final class R {
         public static final int bot2=0x7f040002;
         public static final int bot3=0x7f040003;
         public static final int bot4=0x7f040004;
+        public static final int hello_world=0x7f040007;
+        public static final int title_activity_pergunta=0x7f040006;
+        public static final int title_activity_perguntas=0x7f040008;
         public static final int titulo=0x7f040005;
     }
     public static final class style {

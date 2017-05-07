@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name"> </string>
-    <string name="bot1">Poemas</string>  
+    <string name="app_name"></string>
+    <string name="bot1">Poemas</string>
     <string name="bot2">Quiz</string>
-     <string name="bot3">Bibliografia do autor</string>
-     <string name="bot4">Ajuda quiz</string>
-     <string name="titulo">Ferreira Gullar</string>
-     
+    <string name="bot3">Bibliografia do autor</string>
+    <string name="bot4">Ajuda quiz</string>
+    <string name="titulo">Ferreira Gullar</string>
+    <string name="title_activity_pergunta">Pergunta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_perguntas">Perguntas</string>
 
 </resources>
