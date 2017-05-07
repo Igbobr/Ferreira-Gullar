@@ -15,53 +15,122 @@
         android:gravity="center"
         android:orientation="vertical" >
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:clickable="true"
+            android:orientation="horizontal" 
             android:gravity="center"
-            android:onClick="chamarPergunta"
-            android:text="Pergunta 1"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            >
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:clickable="true"
-            android:gravity="center"
-            android:onClick="chamarPergunta"
-            android:text="Pergunta 2"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/question"
+                 android:drawableBottom="@drawable/yes"   
+                android:text="Quiz 1" 
+                
+               
+                />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:clickable="true"
-            android:gravity="center"
-            android:onClick="chamarPergunta"
-            android:text="Pergunta 3"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/question"
+                android:text="Quiz 2"
 
-        <TextView
+				android:layout_margin="25dp"
+/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked" 
+                android:layout_height="wrap_content"
+                android:text="Quiz 3" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:clickable="true"
+            android:orientation="horizontal" 
             android:gravity="center"
-            android:onClick="chamarPergunta"
-            android:text="Pergunta 4"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked"  
+                android:text="Quiz 4" 
+                
+               
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked" 
+                android:text="Quiz 5"
+				android:layout_margin="25dp"
+/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked" 
+                android:layout_height="wrap_content"
+                android:text="Quiz 6" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked"   
+                android:text="Quiz 7" 
+                
+               
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked" 
+                android:text="Quiz 8"
+				android:layout_margin="25dp"
+/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/bloq"
+                android:drawableBottom="@drawable/locked" 
+                android:layout_height="wrap_content"
+                android:text="Quiz 9" />
+        
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
