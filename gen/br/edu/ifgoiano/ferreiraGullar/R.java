@@ -8,61 +8,83 @@
 package br.edu.ifgoiano.ferreiraGullar;
 
 public final class R {
+    public static final class anim {
+        public static final int anim_translate=0x7f040000;
+        public static final int anim_translate2=0x7f040001;
+    }
     public static final class attr {
     }
     public static final class drawable {
-        public static final int bloq=0x7f020000;
-        public static final int bloqueado=0x7f020001;
-        public static final int bloqueadocor=0x7f020002;
-        public static final int ferreira=0x7f020003;
-        public static final int ferreirapb=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int layout_shadow_gray=0x7f020006;
-        public static final int locked=0x7f020007;
-        public static final int question=0x7f020008;
-        public static final int titulo=0x7f020009;
-        public static final int yes=0x7f02000a;
+        public static final int ajuda=0x7f020000;
+        public static final int bibli=0x7f020001;
+        public static final int bloq=0x7f020002;
+        public static final int bloq2=0x7f020003;
+        public static final int bloqueado=0x7f020004;
+        public static final int bloqueadocor=0x7f020005;
+        public static final int ferreira=0x7f020006;
+        public static final int ferreirapb=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int layout_shadow_gray=0x7f020009;
+        public static final int livro=0x7f02000a;
+        public static final int locked=0x7f02000b;
+        public static final int poema=0x7f02000c;
+        public static final int question=0x7f02000d;
+        public static final int quiz=0x7f02000e;
+        public static final int titulo=0x7f02000f;
+        public static final int yes=0x7f020010;
     }
     public static final class id {
-        public static final int botaoAvancar=0x7f060014;
-        public static final int botaoVoltar=0x7f060013;
-        public static final int button1=0x7f060002;
-        public static final int button2=0x7f060003;
-        public static final int button3=0x7f060004;
-        public static final int button4=0x7f060005;
-        public static final int enunciado=0x7f06000f;
-        public static final int layoutPergunta=0x7f060006;
-        public static final int rb01=0x7f060011;
-        public static final int rb02=0x7f060012;
-        public static final int scrollView1=0x7f060000;
-        public static final int teste=0x7f060010;
-        public static final int textView1=0x7f060001;
-        public static final int textView2=0x7f060007;
-        public static final int textView3=0x7f060008;
-        public static final int textView4=0x7f060009;
-        public static final int textView5=0x7f06000a;
-        public static final int textView6=0x7f06000b;
-        public static final int textView7=0x7f06000c;
-        public static final int textView8=0x7f06000d;
-        public static final int textView9=0x7f06000e;
+        public static final int botaoAvancar=0x7f07001e;
+        public static final int botaoVoltar=0x7f07001d;
+        public static final int buajuda=0x7f070005;
+        public static final int bubibli=0x7f070004;
+        public static final int bupoemas=0x7f070002;
+        public static final int buquiz=0x7f070003;
+        public static final int enunciado=0x7f070019;
+        public static final int layoutPergunta=0x7f070006;
+        public static final int poema1=0x7f070010;
+        public static final int poema2=0x7f070011;
+        public static final int poema3=0x7f070012;
+        public static final int poema4=0x7f070013;
+        public static final int poema5=0x7f070014;
+        public static final int poema6=0x7f070015;
+        public static final int poema7=0x7f070016;
+        public static final int poema8=0x7f070017;
+        public static final int poema9=0x7f070018;
+        public static final int quiz1=0x7f070007;
+        public static final int quiz2=0x7f070008;
+        public static final int quiz3=0x7f070009;
+        public static final int quiz4=0x7f07000a;
+        public static final int quiz5=0x7f07000b;
+        public static final int quiz6=0x7f07000c;
+        public static final int quiz7=0x7f07000d;
+        public static final int quiz8=0x7f07000e;
+        public static final int quiz9=0x7f07000f;
+        public static final int rb01=0x7f07001b;
+        public static final int rb02=0x7f07001c;
+        public static final int scrollView1=0x7f070000;
+        public static final int teste=0x7f07001a;
+        public static final int textView1=0x7f070001;
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
         public static final int activity_perguntas=0x7f030001;
         public static final int activity_selecao_quiz=0x7f030002;
-        public static final int layout_pergunta=0x7f030003;
+        public static final int activity_selecionar_poemas=0x7f030003;
+        public static final int layout_pergunta=0x7f030004;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int bot1=0x7f040001;
-        public static final int bot2=0x7f040002;
-        public static final int bot3=0x7f040003;
-        public static final int bot4=0x7f040004;
-        public static final int hello_world=0x7f040007;
-        public static final int title_activity_pergunta=0x7f040006;
-        public static final int title_activity_perguntas=0x7f040008;
-        public static final int title_activity_selecao_quiz=0x7f040009;
-        public static final int titulo=0x7f040005;
+        public static final int app_name=0x7f050000;
+        public static final int bot1=0x7f050001;
+        public static final int bot2=0x7f050002;
+        public static final int bot3=0x7f050003;
+        public static final int bot4=0x7f050004;
+        public static final int hello_world=0x7f050007;
+        public static final int title_activity_pergunta=0x7f050006;
+        public static final int title_activity_perguntas=0x7f050008;
+        public static final int title_activity_selecao_quiz=0x7f050009;
+        public static final int title_activity_selecionar_poemas=0x7f05000a;
+        public static final int titulo=0x7f050005;
     }
     public static final class style {
         /** 
@@ -91,10 +113,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f060001;
     }
 }

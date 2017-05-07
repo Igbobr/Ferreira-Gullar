@@ -34,6 +34,10 @@
             android:name=".SelecaoQuiz"
             android:label="@string/title_activity_selecao_quiz" >
         </activity>
+        <activity
+            android:name=".SelecionarPoemas"
+            android:label="@string/title_activity_selecionar_poemas" >
+        </activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@
     <string name="title_activity_pergunta">Pergunta</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_perguntas">Perguntas</string>
-    <string name="title_activity_selecao_quiz">SelecaoQuiz</string>
+    <string name="title_activity_selecao_quiz"> </string>
+    <string name="title_activity_selecionar_poemas"> </string>
 
 </resources>
