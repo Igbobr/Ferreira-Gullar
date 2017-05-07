@@ -35,7 +35,8 @@ public final class R {
     public static final class layout {
         public static final int activity_home=0x7f030000;
         public static final int activity_perguntas=0x7f030001;
-        public static final int layout_pergunta=0x7f030002;
+        public static final int activity_selecao_quiz=0x7f030002;
+        public static final int layout_pergunta=0x7f030003;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -46,6 +47,7 @@ public final class R {
         public static final int hello_world=0x7f040007;
         public static final int title_activity_pergunta=0x7f040006;
         public static final int title_activity_perguntas=0x7f040008;
+        public static final int title_activity_selecao_quiz=0x7f040009;
         public static final int titulo=0x7f040005;
     }
     public static final class style {
@@ -61,6 +63,7 @@ public final class R {
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
+
 
 
     
