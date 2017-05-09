@@ -23,11 +23,12 @@
             <TextView
                 android:id="@+id/poema1"
                 android:layout_width="0dp"
-                android:layout_weight="0.33"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.33"
                 android:drawableBottom="@drawable/yes"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 1" />
+                android:gravity="center"
+                android:text="Poema 1" />
 
             <TextView
                 android:id="@+id/poema2"
@@ -35,8 +36,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:layout_weight="0.33"
+                android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 2" />
+                android:gravity="center"
+                android:text="Poema 2" />
 
             <TextView
                 android:id="@+id/poema3"
@@ -45,7 +48,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 3" />
+                android:gravity="center"
+                android:text="Poema 3" />
         </LinearLayout>
 
         <LinearLayout
@@ -53,7 +57,6 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-           
             android:gravity="center"
             android:orientation="horizontal" >
 
@@ -64,7 +67,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 4" />
+                android:gravity="center"
+                android:text="Poema 4" />
 
             <TextView
                 android:id="@+id/poema5"
@@ -74,7 +78,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 5" />
+                android:gravity="center"
+                android:text="Poema 5" />
 
             <TextView
                 android:id="@+id/poema6"
@@ -83,7 +88,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 6" />
+                android:gravity="center"
+                android:text="Poema 6" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,7 +105,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 7" />
+                android:gravity="center"
+                android:text="Poema 7" />
 
             <TextView
                 android:id="@+id/poema8"
@@ -109,7 +116,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 8" />
+                android:gravity="center"
+                android:text="Poema 8" />
 
             <TextView
                 android:id="@+id/poema9"
@@ -118,7 +126,8 @@
                 android:layout_weight="0.33"
                 android:drawableBottom="@drawable/locked"
                 android:drawableTop="@drawable/poema"
-                android:text="      Poema 9" />
+                android:gravity="center"
+                android:text="Poema 9" />
         </LinearLayout>
     </LinearLayout>
 

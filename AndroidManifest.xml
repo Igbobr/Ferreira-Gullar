@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Pergunta"
+            android:name=".FragmentPergunta"
             android:label="@string/title_activity_pergunta" >
         </activity>
         <activity

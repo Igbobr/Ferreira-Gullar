@@ -8,13 +8,17 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class Pergunta extends Fragment {
+public class FragmentPergunta extends Fragment {
 
+	
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 		View view = inflater.inflate(R.layout.layout_pergunta, container, false);
 
+		
+		
 		Button buttonAvancar = (Button) view.findViewById(R.id.botaoAvancar);
 		buttonAvancar.setOnClickListener(new OnClickListener() {
 			@Override
