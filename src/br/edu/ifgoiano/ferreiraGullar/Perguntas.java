@@ -16,8 +16,8 @@ public class Perguntas extends Activity {
 		
 		FragmentTransaction ft = fm.beginTransaction();
 		
-		FragmentPergunta t = new FragmentPergunta();
-		ft.replace(R.id.layoutPergunta, t);
+		Quiz1Pergunta t = new Quiz1Pergunta();
+		
 		
 	}
 }

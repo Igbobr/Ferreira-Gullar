@@ -12,5 +12,5 @@
     <string name="title_activity_perguntas">Perguntas</string>
     <string name="title_activity_selecao_quiz"> </string>
     <string name="title_activity_selecionar_poemas"> </string>
-
+	<string name="q1p1">Ferreira Gullar  traduz a alma do artista.</string>
 </resources>
