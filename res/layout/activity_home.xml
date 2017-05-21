@@ -11,29 +11,27 @@
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:alpha="0.7"
-        android:background="@drawable/layout_shadow_gray" >
+        android:background="@drawable/layout_shadow_gray"
+        android:gravity="center" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="25dp"
-            android:paddingBottom="40dp" >
+            android:padding="25dp" >
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="30dp"
                 android:layout_margin="20dp"
+                android:gravity="center"
                 android:text="@string/titulo"
-                 />
+                android:textSize="30dp" />
 
             <!-- android:background="@drawable/titulo" -->
-
-            
 
             <Button
                 android:id="@+id/bupoemas"
@@ -44,11 +42,10 @@
                 android:layout_marginTop="120dp"
                 android:alpha="1"
                 android:background="#ffffff"
-                android:text="@string/bot1"
                 android:onClick="poemas"
+                android:text="@string/bot1"
                 android:textColor="#000000"
-                android:textStyle="bold|italic"
- />
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/buquiz"
@@ -57,12 +54,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="1dp"
                 android:background="#ffffff"
-                android:text="@string/bot2"
                 android:onClick="quiz"
+                android:text="@string/bot2"
                 android:textColor="#000000"
-                android:textStyle="bold|italic"
-                
-                 />
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/bubibli"
@@ -74,10 +69,7 @@
                 android:onClick="bibli"
                 android:text="@string/bot3"
                 android:textColor="#000000"
-                android:textStyle="bold|italic"
-
-                
-                 />
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/buajuda"
@@ -89,12 +81,8 @@
                 android:onClick="ajuda"
                 android:text="@string/bot4"
                 android:textColor="#000000"
-                android:textStyle="bold|italic" 
-                />
+                android:textStyle="bold|italic" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 

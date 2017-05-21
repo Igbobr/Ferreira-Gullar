@@ -10,7 +10,13 @@
     <string name="title_activity_pergunta">Pergunta</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_perguntas">Perguntas</string>
-    <string name="title_activity_selecao_quiz"> </string>
-    <string name="title_activity_selecionar_poemas"> </string>
+    <string name="title_activity_selecao_quiz"></string>
+    <string name="title_activity_selecionar_poemas"></string>
+    <string name="title_activity_activity_poema"></string>
+
+    <!-- Poemas -->
+
+    <string name="titulo_traduzirse">Traduzir-se</string>
+    <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
 
 </resources>
