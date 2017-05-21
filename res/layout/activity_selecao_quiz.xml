@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:alpha="0.9"
+        android:id="@+id/layout1"
         android:background="#000000"
         android:gravity="center"
         android:orientation="vertical" >
@@ -26,6 +27,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.33"
+                android:clickable="true"
+                android:onClick="quiz1"
                 android:drawableBottom="@drawable/yes"
                 android:drawableTop="@drawable/question"
                 android:gravity="center"
@@ -127,6 +130,16 @@
                 android:gravity="center"
                 android:text="Quiz 9" />
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+        android:gravity="center" 
+        android:orientation="vertical"
+        >
     </LinearLayout>
 
 </LinearLayout>

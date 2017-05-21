@@ -18,7 +18,7 @@
     <style name="AppTheme" parent="android:Theme.Material">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:colorPrimary">@android:color/transparent</item>
-        <item name="android:colorAccent">#C4BD00</item>
+        <item name="android:colorAccent">#00B700</item>
     </style>
 
 </resources>
