@@ -28,6 +28,7 @@ public class FragmentPergunta extends Fragment {
             public void onCheckedChanged (RadioGroup group,int checkedId){
             	RadioButton rb = (RadioButton) view.findViewById(checkedId);
             	
+            	
             
             }
         });

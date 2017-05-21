@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 public class SelecaoQuiz extends Activity {
 	private FragmentManager fm = getFragmentManager();
-	private LinearLayout l1 , l2;
+	private LinearLayout l1 ;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -22,7 +22,6 @@ public class SelecaoQuiz extends Activity {
 	.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 		getWindow().setStatusBarColor(Color.TRANSPARENT);
 		l1 = (LinearLayout) findViewById(R.id.layout1);
-		l2 = (LinearLayout) findViewById(R.id.fragment);
 
 		
 	}
