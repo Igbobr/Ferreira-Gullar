@@ -90,14 +90,47 @@ public final class R {
         public static final int bot2=0x7f050002;
         public static final int bot3=0x7f050003;
         public static final int bot4=0x7f050004;
+        public static final int cantada=0x7f050015;
+        public static final int cantiganaomorrer=0x7f05001b;
+        public static final int doisedois=0x7f050011;
         public static final int hello_world=0x7f050007;
+        public static final int marazul=0x7f050019;
+        public static final int meupai=0x7f05001d;
+        public static final int naovagas=0x7f050017;
+        public static final int oanjo=0x7f05000f;
+        public static final int osmortos=0x7f050013;
         public static final int title_activity_activity_poema=0x7f05000b;
         public static final int title_activity_pergunta=0x7f050006;
         public static final int title_activity_perguntas=0x7f050008;
         public static final int title_activity_selecao_quiz=0x7f050009;
         public static final int title_activity_selecionar_poemas=0x7f05000a;
         public static final int titulo=0x7f050005;
+        /**  Quinto Poema 
+         */
+        public static final int titulo_cantada=0x7f050014;
+        /**  Oitavo Poema 
+         */
+        public static final int titulo_cantiganaomorrer=0x7f05001a;
+        /**  Terceiro Poema 
+         */
+        public static final int titulo_doiedois=0x7f050010;
+        /**  Sétimo Poema 
+         */
+        public static final int titulo_marazul=0x7f050018;
+        /**  Nono Poema 
+         */
+        public static final int titulo_meupai=0x7f05001c;
+        /**  Sexto Poema 
+         */
+        public static final int titulo_naovagas=0x7f050016;
+        /**  Segundo Poema 
+         */
+        public static final int titulo_oanjo=0x7f05000e;
+        /**  Quarto Poema 
+         */
+        public static final int titulo_osmortos=0x7f050012;
         /**  Poemas 
+ Primeiro Poema 
          */
         public static final int titulo_traduzirse=0x7f05000c;
         public static final int traduzirse=0x7f05000d;

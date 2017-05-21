@@ -16,7 +16,41 @@
 
     <!-- Poemas -->
 
+
+    <!-- Primeiro Poema -->
     <string name="titulo_traduzirse">Traduzir-se</string>
-    <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
+    <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
+
+    <!-- Segundo Poema -->
+    <string name="titulo_oanjo">O Anjo</string>
+    <string name="oanjo">O anjo, contido\nem pedra\ne silêncio\nme esperava.\n\nOlho-o, identifico-o\ntal se em profundo sigilo\nde mim o procurasse desde o início.\n\nMe ilumino! todo\no existido\nfora apenas preparação\ndeste encontro.\n\n2\n\nAntes que o olhar, detendo o pássaro\nno voo, do céu descesse\naté o ombro sólido\ndo anjo,\ncriando-o\n– que tempo mágico\nele habitava?\n\n3\n\nTão todo nele me perco\nque de mim se arrebentam\nas raízes do mundo;\ntamanha\na violência de seu corpo contra\no meu,\nque a sua neutra existência\nse quebra:\ne os pétreos olhos\nse acendem;\no facho\nemborcado contra o solo, num desprezo\nà vida\narde intensamente;\na leve brisa\nfaz mover a sua\ntúnica de pedra.\n\n4\n\nO anjo é grave\nagora\nComeço a esperar a morte.</string>
+
+    <!-- Terceiro Poema -->
+    <string name="titulo_doiedois">Dois e Dois São Quatro</string>
+    <string name="doisedois">Como dois e dois são quatro\nSei que a vida vale a pena\nEmbora o pão seja caro\nE a liberdade pequena\nComo teus olhos são claros\nE a tua pele, morena\ncomo é azul o oceano\nE a lagoa, serena\n\nComo um tempo de alegria\nPor trás do terror me acena\nE a noite carrega o dia\nNo seu colo de açucena\n\n- sei que dois e dois são quatro\nsei que a vida vale a pena\nmesmo que o pão seja caro\ne a liberdade pequena.</string>
+
+    <!-- Quarto Poema -->
+    <string name="titulo_osmortos">Os Mortos</string>
+    <string name="osmortos">os mortos vêem o mundo\npelos olhos dos vivos\n\neventualmente ouvem,\ncom nossos ouvidos,\ncertas sinfonias\nalgum bater de portas,\nventanias\n\nAusentes\nde corpo e alma\nmisturam o seu ao nosso riso\nse de fato\nquando vivos\nacharam a mesma graça</string>
+
+    <!-- Quinto Poema -->
+    <string name="titulo_cantada">Cantada</string>
+    <string name="cantada">Você é mais bonita que uma bola prateada\nde papel de cigarro\nVocê é mais bonita que uma poça dágua\nlímpida\nnum lugar escondido\nVocê é mais bonita que uma zebra\nque um filhote de onça\nque um Boeing 707 em pleno ar\nVocê é mais bonita que um jardim florido\nem frente ao mar em Ipanema\nVocê é mais bonita que uma refinaria da Petrobrás\nde noite\nmais bonita que Ursula Andress\nque o Palácio da Alvorada\nmais bonita que a alvorada\nque o mar azul-safira\nda República Dominicana\n\nOlha,\nvocê é tão bonita quanto o Rio de Janeiro\nem maio\ne quase tão bonita\nquanto a Revolução Cubana</string>
+
+    <!-- Sexto Poema -->
+    <string name="titulo_naovagas">Não Há Vagas</string>
+    <string name="naovagas">O preço do feijão\nnão cabe no poema. O preço\ndo arroz\nnão cabe no poema.\nNão cabem no poema o gás\na luz o telefone\na sonegação\ndo leite\nda carne\ndo açúcar\ndo pão\nO funcionário público\nnão cabe no poema\ncom seu salário de fome\nsua vida fechada\nem arquivos.\nComo não cabe no poema\no operário\nque esmerila seu dia de aço\ne carvão\nnas oficinas escuras\n– porque o poema, senhores,\nestá fechado:\n“não há vagas”\nSó cabe no poema\no homem sem estômago\na mulher de nuvens\na fruta sem preço\nO poema, senhores,\nnão fede\nnem cheira.</string>
+
+    <!-- Sétimo Poema -->
+    <string name="titulo_marazul">Mar Azul</string>
+    <string name="marazul">mar azul\n\nmar azul marco azul\n\nmar azul marco azul barco azul\n\nmar azul marco azul barco azul arco azul\n\nmar azul marco azul barco azul arco azul ar azul</string>
+
+    <!-- Oitavo Poema -->
+    <string name="titulo_cantiganaomorrer">Cantiga Para Não Morrer</string>
+    <string name="cantiganaomorrer">Quando você for se embora,\nmoça branca como a neve,\nme leve.\n\nSe acaso você não possa\nme carregar pela mão,\nmenina branca de neve,\nleve no coração.\n\nSe no coração não possa\npor acaso me levar,\nmoça de sonho e de neve,\nme leve no seu lembrar.\n\nE se aí também não possa\npor tanta coisa que leve\njá viva em seu pensamento,\nmenina branca de neve,\nme leve no esquecimento.</string>
+
+    <!-- Nono Poema -->
+    <string name="titulo_meupai">Meu Pai</string>
+    <string name="meupai">meu pai foi\nao Rio se tratar de\num câncer (que\no mataria) mas\nperdeu os óculos\nna viagem\n\nlhe levei\nos óculos novos\ncomprados na Ótica\nFluminense ele\nexaminou o estojo com\nnome da loja dobrou\na nota de compra guardou-a\nno bolso e falou:\nquero ver\nagora qual é o\nsacana que vai dizer\nque eu nunca estive\nno Rio de Janeiro</string>
 
 </resources>
