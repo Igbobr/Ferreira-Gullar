@@ -159,7 +159,7 @@ public class Quiz1Pergunta extends Activity {
 
 		}
 		if (contador == 4) {
-			if (i == getString(R.string.q1p1)) {
+			if (i.equals("Ferreira Gullar  traduz a alma do artista.")) {
 				nota = nota +1;
 			}
 
