@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import br.edu.ifgoiano.ferreiraGullar.biografia.ActivityBiografia;
 
 @SuppressLint("NewApi")
 public class Home extends Activity {
@@ -60,6 +61,16 @@ public class Home extends Activity {
 	}
 	
 	public void bibli(View x) {
+		
+		final Animation animTranslate = AnimationUtils.loadAnimation(this,R.anim.anim_translate);
+		final Animation animTranslate2 = AnimationUtils.loadAnimation(this,R.anim.anim_translate2);
+
+		x.startAnimation(animTranslate);
+		this.buttonQuiz.startAnimation(animTranslate2);
+		this.buttonQuiz.startAnimation(animTranslate2);
+		this.buttonAjuda.startAnimation(animTranslate2);
+		Intent i  =  new Intent(this, ActivityBiografia.class);
+		startActivity(i);
 		
 	}
 
