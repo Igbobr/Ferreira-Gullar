@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
 
-    <string name="app_name"></string>
+
+<resources>
+   <string name="app_name"></string>
     <string name="bot1">Poemas</string>
     <string name="bot2">Quiz</string>
     <string name="bot3">Bibliografia do autor</string>
@@ -13,11 +14,140 @@
     <string name="title_activity_selecao_quiz"></string>
     <string name="title_activity_selecionar_poemas"></string>
     <string name="title_activity_activity_poema"></string>
+    <string name="title_activity_activity_biografia"></string>
 
     <!-- Poemas -->
 
+ <!-- Primeiro Poema -->
+  <string name="title_activity_quiz2_pergunta">Quiz2Pergunta</string>
     <string name="titulo_traduzirse">Traduzir-se</string>
-    <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
-    <string name="title_activity_quiz2_pergunta">Quiz2Pergunta</string>
+    <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
+
+    <!-- Segundo Poema -->
+    <string name="titulo_oanjo">O Anjo</string>
+    <string name="oanjo">O anjo, contido\nem pedra\ne silêncio\nme esperava.\n\nOlho-o, identifico-o\ntal se em profundo sigilo\nde mim o procurasse desde o início.\n\nMe ilumino! todo\no existido\nfora apenas preparação\ndeste encontro.\n\n2\n\nAntes que o olhar, detendo o pássaro\nno voo, do céu descesse\naté o ombro sólido\ndo anjo,\ncriando-o\n– que tempo mágico\nele habitava?\n\n3\n\nTão todo nele me perco\nque de mim se arrebentam\nas raízes do mundo;\ntamanha\na violência de seu corpo contra\no meu,\nque a sua neutra existência\nse quebra:\ne os pétreos olhos\nse acendem;\no facho\nemborcado contra o solo, num desprezo\nà vida\narde intensamente;\na leve brisa\nfaz mover a sua\ntúnica de pedra.\n\n4\n\nO anjo é grave\nagora\nComeço a esperar a morte.</string>
+
+    <!-- Terceiro Poema -->
+    <string name="titulo_doiedois">Dois e Dois São Quatro</string>
+    <string name="doisedois">Como dois e dois são quatro\nSei que a vida vale a pena\nEmbora o pão seja caro\nE a liberdade pequena\nComo teus olhos são claros\nE a tua pele, morena\ncomo é azul o oceano\nE a lagoa, serena\n\nComo um tempo de alegria\nPor trás do terror me acena\nE a noite carrega o dia\nNo seu colo de açucena\n\n- sei que dois e dois são quatro\nsei que a vida vale a pena\nmesmo que o pão seja caro\ne a liberdade pequena.</string>
+
+    <!-- Quarto Poema -->
+    <string name="titulo_osmortos">Os Mortos</string>
+    <string name="osmortos">os mortos vêem o mundo\npelos olhos dos vivos\n\neventualmente ouvem,\ncom nossos ouvidos,\ncertas sinfonias\nalgum bater de portas,\nventanias\n\nAusentes\nde corpo e alma\nmisturam o seu ao nosso riso\nse de fato\nquando vivos\nacharam a mesma graça</string>
+
+    <!-- Quinto Poema -->
+    <string name="titulo_cantada">Cantada</string>
+    <string name="cantada">Você é mais bonita que uma bola prateada\nde papel de cigarro\nVocê é mais bonita que uma poça dágua\nlímpida\nnum lugar escondido\nVocê é mais bonita que uma zebra\nque um filhote de onça\nque um Boeing 707 em pleno ar\nVocê é mais bonita que um jardim florido\nem frente ao mar em Ipanema\nVocê é mais bonita que uma refinaria da Petrobrás\nde noite\nmais bonita que Ursula Andress\nque o Palácio da Alvorada\nmais bonita que a alvorada\nque o mar azul-safira\nda República Dominicana\n\nOlha,\nvocê é tão bonita quanto o Rio de Janeiro\nem maio\ne quase tão bonita\nquanto a Revolução Cubana</string>
+
+    <!-- Sexto Poema -->
+    <string name="titulo_naovagas">Não Há Vagas</string>
+    <string name="naovagas">O preço do feijão\nnão cabe no poema. O preço\ndo arroz\nnão cabe no poema.\nNão cabem no poema o gás\na luz o telefone\na sonegação\ndo leite\nda carne\ndo açúcar\ndo pão\nO funcionário público\nnão cabe no poema\ncom seu salário de fome\nsua vida fechada\nem arquivos.\nComo não cabe no poema\no operário\nque esmerila seu dia de aço\ne carvão\nnas oficinas escuras\n– porque o poema, senhores,\nestá fechado:\n“não há vagas”\nSó cabe no poema\no homem sem estômago\na mulher de nuvens\na fruta sem preço\nO poema, senhores,\nnão fede\nnem cheira.</string>
+
+    <!-- Sétimo Poema -->
+    <string name="titulo_marazul">Mar Azul</string>
+    <string name="marazul">mar azul\n\nmar azul marco azul\n\nmar azul marco azul barco azul\n\nmar azul marco azul barco azul arco azul\n\nmar azul marco azul barco azul arco azul ar azul</string>
+
+    <!-- Oitavo Poema -->
+    <string name="titulo_cantiganaomorrer">Cantiga Para Não Morrer</string>
+    <string name="cantiganaomorrer">Quando você for se embora,\nmoça branca como a neve,\nme leve.\n\nSe acaso você não possa\nme carregar pela mão,\nmenina branca de neve,\nleve no coração.\n\nSe no coração não possa\npor acaso me levar,\nmoça de sonho e de neve,\nme leve no seu lembrar.\n\nE se aí também não possa\npor tanta coisa que leve\njá viva em seu pensamento,\nmenina branca de neve,\nme leve no esquecimento.</string>
+
+    <!-- Nono Poema -->
+    <string name="titulo_meupai">Meu Pai</string>
+    <string name="meupai">meu pai foi\nao Rio se tratar de\num câncer (que\no mataria) mas\nperdeu os óculos\nna viagem\n\nlhe levei\nos óculos novos\ncomprados na Ótica\nFluminense ele\nexaminou o estojo com\nnome da loja dobrou\na nota de compra guardou-a\nno bolso e falou:\nquero ver\nagora qual é o\nsacana que vai dizer\nque eu nunca estive\nno Rio de Janeiro</string>
+
+    <!-- Biografia -->
+    <string name="biografia">Ferreira Gullar (1930-2016),pseudônimo de José de Ribamar Ferreira, nasceu em São Luís, Maranhão, 
+
+no dia 10 de setembro de 1930. Iniciou seus estudos em sua cidade natal. Com 13 anos passou a se 
+
+dedicar à poesia. Com 18 anos começou a assinar Ferreira Gullar e publicou seu primeiro livro de 
+
+poesias intitulado "Um Pouco Acima do Chão". Mudou-se para o Rio de Janeiro, onde atuou como 
+
+jornalista. Participou do Centro Popular de Cultura da extinta União Nacional do Estudante.\n\n
+Ferreira Gullar iniciou sua obra sob os princípios da poesia concreta, logo deixou os vanguardistas 
+
+de São Paulo, numa luta para construir uma expressão própria. Em 1954 escreveu a "A Luta Corporal", 
+
+livro que prenunciava a Poesia Concreta. Em 1956, depois de participar da primeira exposição de 
+
+Poesia Concreta, realizada em São Paulo, organizou e liderou o grupo "Neoconcreto", no qual 
+
+participaram Lígia Clark e Hélio Oiticica. Após romper com os concretistas, aproxima-se da 
+
+realidade popular e do pensamento progressista da época, todo ele ligado ao populismo.\n\n
+Ferreira Gullar presidia o Centro Popular de Cultura da UNE, quando em 1964, veio o golpe militar. 
+
+Filiado ao PC e um dos fundadores do grupo Opinião, foi preso e viveu fora do país de 1971 a 1977. 
+
+Esteve exilado em Paris e depois em Buenos Aires.\n\n
+Em 1976, publica o "Poema Sujo", escrito em 1975, no exílio em Buenos Aires, que representa a 
+
+solução dos problemas vividos por todos os intelectuais do período, que viram seus ideais 
+
+populistas serem sufocados pela revolução de 1964. Em 1977 é absolvido pelo STF e retorna ao 
+
+Brasil.\n\n
+Para o teatro, Ferreira Gullar escreveu, em 1966, em parceria com Oduvaldo Vianna Filho, a peça "Se 
+
+Correr o Bicho Pega, Se Ficar o Bicho Come". Em parceria com Arnaldo Costa e A.C. Fontoura, 
+
+escreveu, em 1967, "A Saída? Onde Fica a Saída?". Junto com Dias Gomes, em 1968, escreveu "Dr. 
+
+Getúlio, Sua Vida e Sua Glória". Para a televisão, colaborou para as novelas Araponga em 1990, 
+
+Irmãos Coragem, em 1995 e Dona Flor e Seus Dois Maridos, em 1998.\n\n
+Ferreira Gullar ganhou diversos prêmios de literatura, entre eles, o Prêmio Jabuti de Melhor Livro 
+
+de Ficção de 2007, com "Resmungos". Também teve reconhecimento com Prêmio Camões, em 2010. No mesmo 
+
+ano, recebeu o título de Doutor Honoris Causa, da UFRJ. Em 2011, recebeu o Prêmio Jabuti de 
+
+Poesia.\n\n
+No dia 9 de outubro de 2014, Ferreira Gullar foi eleito para a cadeira nº 37 da Academia Brasileira 
+
+de Letras. Em dezembro desse mesmo ano realizou a exposição "A Revelação do Avesso" onde apresentou 
+
+30 quadros feitos a partir de colagens com papel colorido, que foram produzidas como passatempo. A 
+
+mostra foi acompanhada por um livro com fotos da coleção completa e também com poemas do autor.
+Ferreira Gullar faleceu no Rio de Janeiro, no dia 4 de dezembro de 2016.\n\n
+
+
+
+Obras de Ferreira Gullar\n\n
+
+Um Pouco Acima do Chão, poesia, 1949\n
+A Luta Corporal, poesia, 1954\n
+Teoria do Não-Objeto, ensaio, 1959\n
+João Boa-Morte, Cabra Marcado pra Morrer, poesia, 1962\n
+Quem Matou Aparecida?, poesia, 1962\n
+Cultura Posta em Questão, ensaio, 1964\n
+Se Corre o Bicho Pega, Se Ficar o Bicho Come, teatro, 1966\n
+A Saída? Onde Fica a Saída?, teatro, 1967\n
+Dr. Getúlio, Sua Vida e Sua Glória, teatro, 1968\n
+Por Você, Por Mim, poesia, 1968\n
+Vanguarda e Subdesenvolvimento, ensaio, 1969\n
+Dentro da Noite Veloz, poesia, 1975\n
+A Luta Corporal e Novos Poemas, poesia, 1976\n
+Poema Sujo, poesia, 1976\n
+Antologia Poética, poesia, 1977\n
+Augusto dos Anjos ou Vida e Morte Nordestina, ensaio, 1977\n
+A Vertigem do Dia, poesia, 1980\n
+Sobre Arte, ensaio, 1983\n
+Barulhos, poesia, 1987\n
+Poemas Escolhidos, 1989\n
+Indagação de Hoje, ensaio, 1989\n
+O Formigueiro, poesia, 1991\n
+Argumentação Contra a Morte da Arte, ensaio, 1993\n
+Rabo de Foguete-Os Anos no Exílio, memórias, 1998\n
+Muitas Vozes, poesia, 1999\n
+Rembrandt, ensaio, 2002\n
+Relâmpagos, ensaio, 2003
+Um Gato Chamado Gatinho, poesia, 2005\n
+Resmungos, poesia, 2007\n
+Em Alguma Parte Alguma, poesia, 2010\n
+Autobiografia Poética e Outros Textos, 2016</string>
 
 </resources>
+

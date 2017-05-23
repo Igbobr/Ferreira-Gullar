@@ -106,6 +106,7 @@ public class SelecionarPoemas extends Activity {
 
 
 
+
 	public void lerArquivo() {
 		String dados = "baaaaaaaa";
 		try {
@@ -277,3 +278,6 @@ public class SelecionarPoemas extends Activity {
 	}
 			
 }
+
+
+

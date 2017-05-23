@@ -46,6 +46,10 @@
             android:name=".Quiz2Pergunta"
             android:label="@string/title_activity_quiz2_pergunta" >
         </activity>
+        <activity
+            android:name="br.edu.ifgoiano.ferreiraGullar.biografia.ActivityBiografia"
+            android:label="@string/title_activity_activity_biografia" >
+        </activity>
     </application>
 
 </manifest>
