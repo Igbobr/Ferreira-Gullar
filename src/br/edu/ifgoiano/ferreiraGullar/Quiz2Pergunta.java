@@ -5,21 +5,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Quiz1Pergunta extends Activity {
+public class Quiz2Pergunta extends Activity {
 	int contador = 0, nota = 0;
 	private RadioGroup rg;
 	private TextView t;
@@ -29,7 +27,7 @@ public class Quiz1Pergunta extends Activity {
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.layout_pergunta);
+		setContentView(R.layout.activity_quiz2_pergunta);
 
 		b1 = (Button) findViewById(R.id.botaoAvancarq1);
 		b2 = (Button) findViewById(R.id.botaoVoltarq1);
@@ -60,7 +58,6 @@ public class Quiz1Pergunta extends Activity {
 	}
 
 	public void avancar(View arg0) {
-		ed.setText("");
 		try {
 			RadioButton radio = (RadioButton) findViewById(rg.getCheckedRadioButtonId());
 			respostaCerta(radio.getText().toString());
@@ -117,7 +114,6 @@ public class Quiz1Pergunta extends Activity {
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
 				ed.setText("Parabéns você passou para o proximo Quiz 2 e desbloqueou o poema 2.");
-				recriarAquivo();
 				t.setText(" ");
 
 			} else {
@@ -143,13 +139,13 @@ public class Quiz1Pergunta extends Activity {
 
 	public void respostaCerta(String i) {
 		if (contador == 0) {
-			if (i.equals("Ferreira Gullar  traduz a alma do artista.")) {
+			if (i.equals("que a proposta do autor é interpretar a si mesmo")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 1) {
-			if (i.equals("antagônico e paradoxical.")) {
+			if (i.equals("efêmera  e paradoxical.")) {
 				nota = nota + 1;
 			}
 

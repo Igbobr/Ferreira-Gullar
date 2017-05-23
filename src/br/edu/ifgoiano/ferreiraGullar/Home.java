@@ -19,9 +19,9 @@ public class Home extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 		
-		getWindow().getDecorView()
+	/*	getWindow().getDecorView()
 	.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
-		getWindow().setStatusBarColor(Color.TRANSPARENT);
+		getWindow().setStatusBarColor(Color.TRANSPARENT);*/
 	
 		this.buttonPoemas = (Button) findViewById(R.id.bupoemas);
 		this.buttonQuiz = (Button) findViewById(R.id.buquiz);
