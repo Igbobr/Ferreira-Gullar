@@ -3,14 +3,11 @@ package br.edu.ifgoiano.ferreiraGullar;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.Fragment;
+import android.graphics.Color;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -27,9 +24,14 @@ public class Quiz1Pergunta extends Activity {
 	private RadioButton rb;
 	private Button b1, b2;
 
+	@SuppressLint("NewApi")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_pergunta);
+
+		getWindow().getDecorView()
+				.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+		getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		b1 = (Button) findViewById(R.id.botaoAvancarq1);
 		b2 = (Button) findViewById(R.id.botaoVoltarq1);

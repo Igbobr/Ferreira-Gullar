@@ -66,7 +66,7 @@ public class Home extends Activity {
 		final Animation animTranslate2 = AnimationUtils.loadAnimation(this,R.anim.anim_translate2);
 
 		x.startAnimation(animTranslate);
-		this.buttonQuiz.startAnimation(animTranslate2);
+		this.buttonPoemas.startAnimation(animTranslate2);
 		this.buttonQuiz.startAnimation(animTranslate2);
 		this.buttonAjuda.startAnimation(animTranslate2);
 		Intent i  =  new Intent(this, ActivityBiografia.class);
