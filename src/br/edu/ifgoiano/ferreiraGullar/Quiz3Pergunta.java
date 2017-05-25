@@ -5,21 +5,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Quiz1Pergunta extends Activity {
+public class Quiz3Pergunta extends Activity {
 	int contador = 0, nota = 0;
 	private RadioGroup rg;
 	private TextView t;
@@ -29,13 +27,13 @@ public class Quiz1Pergunta extends Activity {
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.layout_pergunta);
+		setContentView(R.layout.activity_quiz3_pergunta);
 
-		b1 = (Button) findViewById(R.id.botaoAvancarq1);
-		b2 = (Button) findViewById(R.id.botaoVoltarq1);
-		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz1);
-		t = (TextView) findViewById(R.id.enunciadoquiz1);
-		rg = (RadioGroup) findViewById(R.id.quiz1radio);
+		b1 = (Button) findViewById(R.id.botaoAvancarq3);
+		b2 = (Button) findViewById(R.id.botaoVoltarq3);
+		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz3);
+		t = (TextView) findViewById(R.id.enunciadoquiz3);
+		rg = (RadioGroup) findViewById(R.id.quiz3radio);
 
 		rg.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
@@ -48,11 +46,11 @@ public class Quiz1Pergunta extends Activity {
 		});
 
 		try {
-			t.setText("O pronome reflexivo 'traduzir-se' passa ao leitor");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("que o autor gosta de demonstrar os antagonismos"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("a ideia de naturezas opostas dentro de nós."));
+			t.setText("No poema 'DOIS E DOIS: QUATRO' o poeta questiona ");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("a beleza da vida"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("como a liberdade é pequena"));
 			((RadioButton) rg.getChildAt(2))
-					.setText(String.valueOf(" a  ideia da natureza do ser humano e sua cultura contraditória ."));
+					.setText(String.valueOf("se a vida vale realmente a pena."));
 
 		} catch (Exception e) {
 			Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
@@ -60,7 +58,6 @@ public class Quiz1Pergunta extends Activity {
 	}
 
 	public void avancar(View arg0) {
-		ed.setText("");
 		try {
 			RadioButton radio = (RadioButton) findViewById(rg.getCheckedRadioButtonId());
 			respostaCerta(radio.getText().toString());
@@ -73,51 +70,50 @@ public class Quiz1Pergunta extends Activity {
 
 		if (contador == 0) {
 			try {
-				t.setText("O pronome reflexivo 'traduzir-se' passa ao leitor");
+				t.setText("No poema 'DOIS E DOIS: QUATRO' o poeta questiona");
 				((RadioButton) rg.getChildAt(0))
-						.setText(String.valueOf("que o autor gosta de demonstrar os antagonismos"));
+						.setText(String.valueOf("a beleza da vida"));
 				((RadioButton) rg.getChildAt(1))
-						.setText(String.valueOf("a ideia de naturezas opostas dentro de nós."));
+						.setText(String.valueOf("como a liberdade é pequena"));
 				((RadioButton) rg.getChildAt(2))
-						.setText(String.valueOf("a  ideia da natureza do ser humano e sua cultura contraditória ."));
+						.setText(String.valueOf("se a vida vale realmente a pena."));
 
 			} catch (Exception e) {
 				Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
 			}
 		}
 		if (contador == 1) {
-			t.setText("O poema 'traduzir-se' apresenta uma característica ");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Eufemista e irônica"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("antagônico e paradoxo."));
-			((RadioButton) rg.getChildAt(2)).setText(String.valueOf("Apóstrofe e personificativa"));
+			t.setText("Como o eu-lírico do poema vê a vida ? ");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("embora difícil, mas boa."));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("vida muito difícil, sendo pessimista."));
+			((RadioButton) rg.getChildAt(2)).setText(String.valueOf("vida sendo muito ruim."));
 
 		} else if (contador == 2) {
-			t.setText("O fato do poema  apresentar oposições, ");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("demostra as leis dos opostos."));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("descreve naturezas opostas convivendo em um mesmo ser."));
+			t.setText("Quais dificuldades são exploradas pelo autor ?");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf(" lagoa, serena"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("liberdade pequena e o terror acena."));
 			((RadioButton) rg.getChildAt(2))
-					.setText(String.valueOf("questões culturais que influencia nas pessoas."));
-		} else if (contador == 3) {
-			t.setText(" Complete: Uma parte de mim é todo mundo; ");
+					.setText(String.valueOf("Nenhuma das anteriores"));
+		}/* else if (contador == 3) {
+			t.setText("Uma parte de mim é todo mundo; ");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("outra parte estranheza e solidão."));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("outra parte é ninguém: fundo sem fundo"));
 			((RadioButton) rg.getChildAt(2)).setText(String.valueOf("Uma parte de mim pesa, pondera"));
 
 		} else if (contador == 4) {
-			t.setText("Na parte do poema, 'outra parte, linguagem ', podemos substituir o termo 'linguagem' por:");
+			t.setText("Na parte do poema, 'outra parte, linguagem ', podemos substituir o termo linguagem por:");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Vertigem e tortura"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falar e comunicar"));
 			((RadioButton) rg.getChildAt(2)).setText(String.valueOf("Racionalidade e inteligência"));
-		}
-		if (contador == 5) {
-			if ((nota == 4) || (nota == 5)) {
+		}*/
+		if (contador == 3) {
+			if ((nota == 2) || (nota == 3)) {
 				b1.setVisibility(arg0.INVISIBLE);
 				b2.setVisibility(arg0.INVISIBLE);
 				b1.setClickable(false);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
-				ed.setText("Parabéns você passou para o proximo Quiz 2 e desbloqueou o poema 2.");
-				recriarAquivo();
+				ed.setText("Parabéns você passou para o proximo Quiz 4 e desbloqueou o poema 4.");
 				t.setText(" ");
 
 			} else {
@@ -143,24 +139,24 @@ public class Quiz1Pergunta extends Activity {
 
 	public void respostaCerta(String i) {
 		if (contador == 0) {
-			if (i.equals("a ideia de naturezas opostas dentro de nós.")) {
+			if (i.equals("se a vida vale realmente a pena.")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 1) {
-			if (i.equals("antagônico e paradoxo.")) {
+			if (i.equals("embora difícil, mas boa.")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 2) {
-			if (i.equals("descreve naturezas opostas convivendo em um mesmo ser.")) {
+			if (i.equals("liberdade pequena e o terror acena.")) {
 				nota = nota + 1;
 			}
 
 		}
-		if (contador == 3) {
+		/*if (contador == 3) {
 			if (i.equals("outra parte é ninguém: fundo sem fundo")) {
 				nota = nota + 1;
 			}
@@ -171,7 +167,7 @@ public class Quiz1Pergunta extends Activity {
 				nota = nota + 1;
 			}
 
-		}
+		}*/
 		if (i == null) {
 		}
 	}
@@ -190,7 +186,7 @@ public class Quiz1Pergunta extends Activity {
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo", MODE_APPEND);
-			String data = "cbaaaaaaa";
+			String data = "cccbaaaaa";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 
@@ -202,7 +198,7 @@ public class Quiz1Pergunta extends Activity {
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo2", MODE_APPEND);
-			String data = "cbaaaaaaa";
+			String data = "cccbaaaaa";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 

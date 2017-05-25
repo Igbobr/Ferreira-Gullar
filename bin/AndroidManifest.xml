@@ -47,8 +47,24 @@
             android:label="@string/title_activity_quiz2_pergunta" >
         </activity>
         <activity
-            android:name="br.edu.ifgoiano.ferreiraGullar.biografia.ActivityBiografia"
+            android:name=".biografia.ActivityBiografia"
             android:label="@string/title_activity_activity_biografia" >
+        </activity>
+        <activity
+            android:name=".Quiz3Pergunta"
+            android:label="@string/title_activity_quiz3_pergunta" >
+        </activity>
+        <activity
+            android:name=".Quiz9Pergunta"
+            android:label="@string/title_activity_quiz9_pergunta" >
+        </activity>
+        <activity
+            android:name=".Quiz8Pergunta"
+            android:label="@string/title_activity_quiz8_pergunta" >
+        </activity>
+        <activity
+            android:name=".Quiz4Pergunta"
+            android:label="@string/title_activity_quiz4_pergunta" >
         </activity>
     </application>
 

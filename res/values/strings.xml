@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <resources>
-   <string name="app_name"></string>
+
+    <string name="app_name"></string>
     <string name="bot1">Poemas</string>
     <string name="bot2">Quiz</string>
     <string name="bot3">Bibliografia do autor</string>
@@ -18,8 +17,9 @@
 
     <!-- Poemas -->
 
- <!-- Primeiro Poema -->
-  <string name="title_activity_quiz2_pergunta">Quiz2Pergunta</string>
+
+    <!-- Primeiro Poema -->
+    <string name="title_activity_quiz2_pergunta">Quiz2Pergunta</string>
     <string name="titulo_traduzirse">Traduzir-se</string>
     <string name="traduzirse">Uma parte de mim\né todo mundo:\noutra parte é ninguém:\nfundo sem fundo.\n\nUma parte de mim\né multidão:\noutra parte estranheza\ne solidão.\n\nUma parte de mim\npesa, pondera:\noutra parte\ndelira.\n\nUma parte de mim\nalmoça e janta:\noutra parte\nse espanta.\n\nUma parte de mim\né permanente:\noutra parte\nse sabe de repente.\n\nUma parte de mim\né só vertigem:\noutra parte,\nlinguagem.\n\nTraduzir uma parte\nna outra parte\n— que é uma questão\nde vida ou morte —\nserá arte?</string>
 
@@ -148,6 +148,9 @@ Um Gato Chamado Gatinho, poesia, 2005\n
 Resmungos, poesia, 2007\n
 Em Alguma Parte Alguma, poesia, 2010\n
 Autobiografia Poética e Outros Textos, 2016</string>
+    <string name="title_activity_quiz3_pergunta">Quiz3Pergunta</string>
+    <string name="title_activity_quiz9_pergunta">Quiz9Pergunta</string>
+    <string name="title_activity_quiz8_pergunta">Quiz8Pergunta</string>
+    <string name="title_activity_quiz4_pergunta">Quiz4Pergunta</string>
 
 </resources>
-

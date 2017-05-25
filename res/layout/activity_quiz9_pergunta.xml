@@ -27,7 +27,7 @@
                 android:paddingTop="10dp" >
 
                 <TextView
-                    android:id="@+id/enunciadoquiz2"
+                    android:id="@+id/enunciadoquiz9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
@@ -38,7 +38,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextEnunciadoQuiz2"
+                    android:id="@+id/editTextEnunciadoQuiz9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:editable="false"
@@ -55,7 +55,7 @@
                 android:orientation="vertical" >
 
                 <RadioGroup
-                    android:id="@+id/quiz2radio"
+                    android:id="@+id/quiz9radio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
@@ -63,7 +63,7 @@
                     android:gravity="center" >
 
                     <RadioButton
-                        android:id="@+id/rb01q2"
+                        android:id="@+id/rb01q9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -71,20 +71,14 @@
                         android:textColor="#FFFFFF" />
 
                     <RadioButton
-                        android:id="@+id/rb02q2"
+                        android:id="@+id/rb02q9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Número 02"
                         android:textColor="#FFFFFF" />
 
-                    <RadioButton
-                        android:id="@+id/rb03q2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="Número 03"
-                        android:textColor="#FFFFFF" />
+                    
                 </RadioGroup>
 
                 <LinearLayout
@@ -96,7 +90,7 @@
                     android:orientation="horizontal" >
 
                     <Button
-                        android:id="@+id/botaoVoltarq2"
+                        android:id="@+id/botaoVoltarq9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -106,7 +100,7 @@
                         android:text="Voltar" />
 
                     <Button
-                        android:id="@+id/botaoAvancarq2"
+                        android:id="@+id/botaoAvancarq9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

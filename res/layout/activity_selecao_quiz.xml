@@ -6,143 +6,174 @@
     android:gravity="center"
     android:orientation="vertical" >
 
+     <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
     <LinearLayout
+        android:id="@+id/layout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:alpha="0.9"
         android:background="#000000"
         android:gravity="center"
-        android:id="@+id/layout2"
         android:orientation="vertical" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:id="@+id/layout1"
-            android:orientation="horizontal" >
+       
 
-            <TextView
-                android:id="@+id/quiz1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:clickable="true"
-                android:onClick="quiz1"
-                android:drawableBottom="@drawable/yes"
-                android:drawableTop="@drawable/question"
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Quiz 1" />
+                android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/quiz2"
-                android:layout_width="0dp"
+                <TextView
+                    android:id="@+id/quiz1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:drawableBottom="@drawable/yes"
+                    android:drawableTop="@drawable/question"
+                    android:gravity="center"
+                    android:onClick="quiz1"
+                    android:text="Quiz 1" />
+
+                <TextView
+                    android:id="@+id/quiz2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/question"
+                    android:gravity="center"
+                    android:onClick="quiz2"
+                    android:text="Quiz 2" />
+
+                <TextView
+                    android:id="@+id/quiz3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:onClick="quiz3"
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:clickable="true"
-                android:onClick="quiz2"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/question"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="Quiz 2" />
+                android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/quiz3"
-                android:layout_width="0dp"
+                <TextView
+                    android:id="@+id/quiz4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:onClick="quiz4"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"                 
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 4" />
+
+                <TextView
+                    android:id="@+id/quiz5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:onClick="quiz5"
+                     android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp" 
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 5" />
+
+                <TextView
+                    android:id="@+id/quiz6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:onClick="quiz6"
+                     android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp" 
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
                 android:gravity="center"
-                android:text="Quiz 3" />
-        </LinearLayout>
+                android:orientation="horizontal" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/quiz7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:onClick="quiz7"
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 7" />
 
-            <TextView
-                android:id="@+id/quiz4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 4" />
 
-            <TextView
-                android:id="@+id/quiz5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 5" />
+                <TextView
+                    android:id="@+id/quiz8"
+                    android:layout_width="0dp"
+                    android:clickable="true"
+                    android:onClick="quiz8"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 8" />
 
-            <TextView
-                android:id="@+id/quiz6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 6" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/quiz9"
+                    android:layout_width="0dp"
+                    android:clickable="true"
+                    android:onClick="quiz9"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:drawableBottom="@drawable/locked"
+                    android:drawableTop="@drawable/bloq"
+                    android:gravity="center"
+                    android:text="Quiz 9" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal" >
-
-            <TextView
-                android:id="@+id/quiz7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 7" />
-
-            <TextView
-                android:id="@+id/quiz8"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 8" />
-
-            <TextView
-                android:id="@+id/quiz9"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.33"
-                android:drawableBottom="@drawable/locked"
-                android:drawableTop="@drawable/bloq"
-                android:gravity="center"
-                android:text="Quiz 9" />
-        </LinearLayout>
+               
+                </LinearLayout>
+            
+     <Button
+                    android:id="@+id/button1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:text="Button"
+                    android:visibility="invisible" />
+            
     </LinearLayout>
+        </ScrollView>
 
-    <LinearLayout
-        android:id="@+id/fragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-		android:layout_margin="20dp"
-        android:gravity="center" 
-        android:orientation="vertical"
-        >
-    </LinearLayout>
-
+    
 </LinearLayout>

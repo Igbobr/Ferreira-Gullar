@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Intent;
@@ -21,14 +21,15 @@ import android.widget.Toast;
 
 public class SelecaoQuiz extends Activity {
 
+	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_selecao_quiz);
 
-		/*getWindow().getDecorView()
+		getWindow().getDecorView()
 				.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
-		getWindow().setStatusBarColor(Color.TRANSPARENT);*/
+		getWindow().setStatusBarColor(Color.TRANSPARENT);
 		try {
 			lerArquivo();
 
@@ -48,6 +49,32 @@ public class SelecaoQuiz extends Activity {
 	public void quiz2(View x) {
 
 		Intent i = new Intent(this, Quiz2Pergunta.class);
+		startActivity(i);
+
+	}
+	public void quiz3(View x) {
+
+		Intent i = new Intent(this, Quiz3Pergunta.class);
+		startActivity(i);
+
+	}
+	public void quiz4(View x) {
+
+		Intent i = new Intent(this, Quiz4Pergunta.class);
+		startActivity(i);
+
+	}
+	public void quiz8(View x) {
+
+		Intent i = new Intent(this, Quiz8Pergunta.class);
+		startActivity(i);
+
+	}
+	
+	
+	public void quiz9(View x) {
+
+		Intent i = new Intent(this, Quiz9Pergunta.class);
 		startActivity(i);
 
 	}
