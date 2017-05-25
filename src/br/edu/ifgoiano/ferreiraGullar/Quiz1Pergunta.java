@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -119,7 +120,7 @@ public class Quiz1Pergunta extends Activity {
 				b1.setClickable(false);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
-				ed.setText("Parabéns você passou para o proximo Quiz 2 e desbloqueou o poema 2.");
+				ed.setText("Parabéns você passou para o proximo Quiz 2 e desbloqueou o poema 2.\nAcertos:" + nota);
 				recriarAquivo();
 				t.setText(" ");
 

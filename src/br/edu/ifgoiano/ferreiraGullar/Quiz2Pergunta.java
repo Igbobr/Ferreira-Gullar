@@ -119,7 +119,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b1.setClickable(false);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
-				ed.setText("Parabéns você passou para o proximo Quiz 3 e desbloqueou o poema 3.");
+				ed.setText("Parabéns você passou para o proximo Quiz 3 e desbloqueou o poema 3.\nAcertos:" + nota);
 				t.setText(" ");
 
 			} else {

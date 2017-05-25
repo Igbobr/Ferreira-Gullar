@@ -111,7 +111,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
 				ed.setText("");
-				t.setText("Parabéns você passou todas as etapas, agora você sabe o minímo do escritor Ferreira Gullar. ");
+				t.setText("Parabéns você passou todas as etapas, agora você sabe o minímo do escritor Ferreira Gullar.");
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);

@@ -13,6 +13,10 @@
     <string name="title_activity_selecionar_poemas"></string>
     <string name="title_activity_activity_poema"></string>
     <string name="title_activity_activity_biografia"></string>
+    <string name="title_activity_quiz3_pergunta"></string>
+    <string name="title_activity_quiz9_pergunta"></string>
+    <string name="title_activity_quiz8_pergunta"></string>
+    <string name="title_activity_quiz4_pergunta"></string>
 
     <!-- Poemas -->
 
@@ -147,9 +151,5 @@ Um Gato Chamado Gatinho, poesia, 2005\n
 Resmungos, poesia, 2007\n
 Em Alguma Parte Alguma, poesia, 2010\n
 Autobiografia Poética e Outros Textos, 2016</string>
-    <string name="title_activity_quiz3_pergunta">Quiz3Pergunta</string>
-    <string name="title_activity_quiz9_pergunta">Quiz9Pergunta</string>
-    <string name="title_activity_quiz8_pergunta">Quiz8Pergunta</string>
-    <string name="title_activity_quiz4_pergunta">Quiz4Pergunta</string>
 
 </resources>

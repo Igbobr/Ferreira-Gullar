@@ -126,19 +126,19 @@ public final class R {
         public static final int app_name=0x7f050000;
         /**  Biografia 
          */
-        public static final int biografia=0x7f05001f;
+        public static final int biografia=0x7f050023;
         public static final int bot1=0x7f050001;
         public static final int bot2=0x7f050002;
         public static final int bot3=0x7f050003;
         public static final int bot4=0x7f050004;
-        public static final int cantada=0x7f050016;
-        public static final int cantiganaomorrer=0x7f05001c;
-        public static final int doisedois=0x7f050012;
-        public static final int marazul=0x7f05001a;
-        public static final int meupai=0x7f05001e;
-        public static final int naovagas=0x7f050018;
-        public static final int oanjo=0x7f050010;
-        public static final int osmortos=0x7f050014;
+        public static final int cantada=0x7f05001a;
+        public static final int cantiganaomorrer=0x7f050020;
+        public static final int doisedois=0x7f050016;
+        public static final int marazul=0x7f05001e;
+        public static final int meupai=0x7f050022;
+        public static final int naovagas=0x7f05001c;
+        public static final int oanjo=0x7f050014;
+        public static final int osmortos=0x7f050018;
         public static final int title_activity_activity_biografia=0x7f05000b;
         public static final int title_activity_activity_poema=0x7f05000a;
         public static final int title_activity_pergunta=0x7f050006;
@@ -146,40 +146,40 @@ public final class R {
         /**  Poemas 
  Primeiro Poema 
          */
-        public static final int title_activity_quiz2_pergunta=0x7f05000c;
-        public static final int title_activity_quiz3_pergunta=0x7f050020;
-        public static final int title_activity_quiz4_pergunta=0x7f050023;
-        public static final int title_activity_quiz8_pergunta=0x7f050022;
-        public static final int title_activity_quiz9_pergunta=0x7f050021;
+        public static final int title_activity_quiz2_pergunta=0x7f050010;
+        public static final int title_activity_quiz3_pergunta=0x7f05000c;
+        public static final int title_activity_quiz4_pergunta=0x7f05000f;
+        public static final int title_activity_quiz8_pergunta=0x7f05000e;
+        public static final int title_activity_quiz9_pergunta=0x7f05000d;
         public static final int title_activity_selecao_quiz=0x7f050008;
         public static final int title_activity_selecionar_poemas=0x7f050009;
         public static final int titulo=0x7f050005;
         /**  Quinto Poema 
          */
-        public static final int titulo_cantada=0x7f050015;
+        public static final int titulo_cantada=0x7f050019;
         /**  Oitavo Poema 
          */
-        public static final int titulo_cantiganaomorrer=0x7f05001b;
+        public static final int titulo_cantiganaomorrer=0x7f05001f;
         /**  Terceiro Poema 
          */
-        public static final int titulo_doiedois=0x7f050011;
+        public static final int titulo_doiedois=0x7f050015;
         /**  Sétimo Poema 
          */
-        public static final int titulo_marazul=0x7f050019;
+        public static final int titulo_marazul=0x7f05001d;
         /**  Nono Poema 
          */
-        public static final int titulo_meupai=0x7f05001d;
+        public static final int titulo_meupai=0x7f050021;
         /**  Sexto Poema 
          */
-        public static final int titulo_naovagas=0x7f050017;
+        public static final int titulo_naovagas=0x7f05001b;
         /**  Segundo Poema 
          */
-        public static final int titulo_oanjo=0x7f05000f;
+        public static final int titulo_oanjo=0x7f050013;
         /**  Quarto Poema 
          */
-        public static final int titulo_osmortos=0x7f050013;
-        public static final int titulo_traduzirse=0x7f05000d;
-        public static final int traduzirse=0x7f05000e;
+        public static final int titulo_osmortos=0x7f050017;
+        public static final int titulo_traduzirse=0x7f050011;
+        public static final int traduzirse=0x7f050012;
     }
     public static final class style {
         /** 
@@ -200,11 +200,13 @@ public final class R {
 
 
 
+
         
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
 
 
 
