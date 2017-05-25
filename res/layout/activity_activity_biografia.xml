@@ -9,10 +9,9 @@
         android:id="@+id/telaBiografia"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:padding="20dp" >
+        android:orientation="vertical" >
     </LinearLayout>
 
 </LinearLayout>
