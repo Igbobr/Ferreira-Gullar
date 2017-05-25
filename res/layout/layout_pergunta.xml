@@ -4,51 +4,49 @@
     android:layout_height="match_parent"
     android:background="@drawable/ferreirapb"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:padding="20dp" >
 
-    <ScrollView 
-         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_height="match_parent"
         android:alpha="0.9"
-        android:background="#000000"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:paddingBottom="25dp"
-        
-         >
+        android:background="@drawable/layout_shadow_gray" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" 
-            android:paddingTop="10dp"
-            >
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="25dp" >
 
-            <TextView
-                android:id="@+id/enunciadoquiz1"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:gravity="center"
-                android:text="Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/enunciadoquiz1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:text="Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a
                  maioria sofreu algum tipo de alteração..."
-                android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/editTextEnunciadoQuiz1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="5"
-                android:editable="false"
-                android:gravity="center"
-                 />
-        
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/editTextEnunciadoQuiz1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:ems="5"
+                    android:gravity="center" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -57,78 +55,70 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:orientation="vertical" >
-    <RadioGroup
+
+                <RadioGroup
                     android:id="@+id/quiz1radio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
                     android:layout_marginTop="15dp"
                     android:gravity="center" >
-                
 
-            <RadioButton
-                android:id="@+id/rb01q1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Número 01"
-                android:textColor="#FFFFFF" />
+                    <RadioButton
+                        android:id="@+id/rb01q1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Número 01"
+                        android:textColor="#FFFFFF" />
 
-            <RadioButton
-                android:id="@+id/rb02q1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Número 02"
-                android:textColor="#FFFFFF" />
+                    <RadioButton
+                        android:id="@+id/rb02q1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Número 02"
+                        android:textColor="#FFFFFF" />
 
-            <RadioButton
-                android:id="@+id/rb03q1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Número 03"
-                android:textColor="#FFFFFF" />
-        </RadioGroup>
-
-            
-
-         
+                    <RadioButton
+                        android:id="@+id/rb03q1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Número 03"
+                        android:textColor="#FFFFFF" />
+                </RadioGroup>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:alpha="0.9"
                     android:gravity="center"
-                    android:orientation="horizontal" 
-                    android:layout_marginTop="20dp"
-                    >
+                    android:orientation="horizontal" >
 
+                    <Button
+                        android:id="@+id/botaoVoltarq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/layout_shadow_gray"
+                        android:onClick="voltar"
+                        android:text="Voltar" />
 
-            <Button
-                android:id="@+id/botaoVoltarq1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginRight="10dp"
-                android:onClick="voltar"
-                android:background="@drawable/layout_shadow_gray"
-                android:text="Voltar" />
-
-            <Button
-                android:id="@+id/botaoAvancarq1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:onClick="avancar"
-                android:background="@drawable/layout_shadow_gray"
-                android:text="Avançar" />
-        	
+                    <Button
+                        android:id="@+id/botaoAvancarq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/layout_shadow_gray"
+                        android:onClick="avancar"
+                        android:text="Avançar" />
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
 
-                    
 </LinearLayout>

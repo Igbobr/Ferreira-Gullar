@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -19,6 +19,7 @@ import br.edu.ifgoiano.ferreiraGullar.poemas.ActivityPoema;
 
 public class SelecionarPoemas extends Activity {
 
+	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -103,10 +104,6 @@ public class SelecionarPoemas extends Activity {
 
 	}
 
-
-
-
-
 	public void lerArquivo() {
 		String dados = "baaaaaaaa";
 		try {
@@ -129,7 +126,7 @@ public class SelecionarPoemas extends Activity {
 		} catch (IOException ioex) {
 			ioex.printStackTrace();
 		}
-	
+
 		Drawable drawableTop = getResources().getDrawable(R.drawable.poema);
 		Drawable drawablebottom = getResources().getDrawable(R.drawable.locked);
 		Drawable drawablebottom2 = getResources().getDrawable(R.drawable.yes);
@@ -145,11 +142,11 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		
-		//-------------------------------------------------------------------------------
-		
+
+		// -------------------------------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(1));
-		 t = (TextView) findViewById(R.id.poema2);
+		t = (TextView) findViewById(R.id.poema2);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -159,10 +156,10 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		
-		//---------------------------------------------------------
+
+		// ---------------------------------------------------------
 		q = String.valueOf(dados.charAt(2));
-		 t = (TextView) findViewById(R.id.poema3);
+		t = (TextView) findViewById(R.id.poema3);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -172,9 +169,9 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//----------------------------------------------------------
+		// ----------------------------------------------------------
 		q = String.valueOf(dados.charAt(2));
-		 t = (TextView) findViewById(R.id.poema3);
+		t = (TextView) findViewById(R.id.poema3);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -184,11 +181,11 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-	
-		//---------------------------------------------------------
-		
+
+		// ---------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(3));
-		 t = (TextView) findViewById(R.id.poema4);
+		t = (TextView) findViewById(R.id.poema4);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -198,10 +195,10 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//------------------------------------------------------------
-		
+		// ------------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(4));
-		 t = (TextView) findViewById(R.id.poema5);
+		t = (TextView) findViewById(R.id.poema5);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -211,10 +208,10 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-------------------------------------------------------------
-		
+		// -------------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(5));
-		 t = (TextView) findViewById(R.id.poema6);
+		t = (TextView) findViewById(R.id.poema6);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -224,9 +221,9 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-----------------------------------------------------------------------
+		// -----------------------------------------------------------------------
 		q = String.valueOf(dados.charAt(6));
-		 t = (TextView) findViewById(R.id.poema7);
+		t = (TextView) findViewById(R.id.poema7);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -236,9 +233,9 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-------------------------------------------------------------
+		// -------------------------------------------------------------
 		q = String.valueOf(dados.charAt(7));
-		 t = (TextView) findViewById(R.id.poema8);
+		t = (TextView) findViewById(R.id.poema8);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -248,9 +245,9 @@ public class SelecionarPoemas extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-	//-------------------------------------------------------------------
+		// -------------------------------------------------------------------
 		q = String.valueOf(dados.charAt(8));
-		 t = (TextView) findViewById(R.id.poema9);
+		t = (TextView) findViewById(R.id.poema9);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -276,8 +273,5 @@ public class SelecionarPoemas extends Activity {
 			ioex.printStackTrace();
 		}
 	}
-			
+
 }
-
-
-

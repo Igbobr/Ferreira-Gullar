@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ferreirapb"
     android:gravity="center"
     android:orientation="vertical" >
 
-     <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-    
-    <LinearLayout
-        android:id="@+id/layout2"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="20dp"
-        android:alpha="0.9"
-        android:background="#000000"
-        android:gravity="center"
-        android:orientation="vertical" >
+        android:fillViewport="true" 
+        android:padding="20dp">
 
-       
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.9"
+            android:background="#000000"
+            android:gravity="center"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:id="@+id/layout1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="horizontal" >
 
@@ -59,10 +59,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.33"
                     android:clickable="true"
-                    android:onClick="quiz3"
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz3"
                     android:text="Quiz 3" />
             </LinearLayout>
 
@@ -78,42 +78,42 @@
                     android:id="@+id/quiz4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
                     android:layout_weight="0.33"
                     android:clickable="true"
-                    android:onClick="quiz4"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"                 
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz4"
                     android:text="Quiz 4" />
 
                 <TextView
                     android:id="@+id/quiz5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
                     android:layout_weight="0.33"
                     android:clickable="true"
-                    android:onClick="quiz5"
-                     android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp" 
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz5"
                     android:text="Quiz 5" />
 
                 <TextView
                     android:id="@+id/quiz6"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
                     android:layout_weight="0.33"
                     android:clickable="true"
-                    android:onClick="quiz6"
-                     android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp" 
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz6"
                     android:text="Quiz 6" />
             </LinearLayout>
 
@@ -129,51 +129,37 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.33"
                     android:clickable="true"
-                    android:onClick="quiz7"
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz7"
                     android:text="Quiz 7" />
-
 
                 <TextView
                     android:id="@+id/quiz8"
                     android:layout_width="0dp"
-                    android:clickable="true"
-                    android:onClick="quiz8"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.33"
+                    android:clickable="true"
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz8"
                     android:text="Quiz 8" />
 
                 <TextView
                     android:id="@+id/quiz9"
                     android:layout_width="0dp"
-                    android:clickable="true"
-                    android:onClick="quiz9"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.33"
+                    android:clickable="true"
                     android:drawableBottom="@drawable/locked"
                     android:drawableTop="@drawable/bloq"
                     android:gravity="center"
+                    android:onClick="quiz9"
                     android:text="Quiz 9" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
-               
-                </LinearLayout>
-            
-     <Button
-                    android:id="@+id/button1"
-                    style="?android:attr/buttonStyleSmall"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.33"
-                    android:text="Button"
-                    android:visibility="invisible" />
-            
-    </LinearLayout>
-        </ScrollView>
-
-    
 </LinearLayout>

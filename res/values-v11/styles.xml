@@ -4,14 +4,14 @@
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
 
 
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -19,6 +19,6 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:colorPrimary">@android:color/transparent</item>
         <item name="android:colorAccent">#00B700</item>
-    </style>
+    </style>
 
 </resources>

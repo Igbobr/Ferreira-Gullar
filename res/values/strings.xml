@@ -4,12 +4,11 @@
     <string name="app_name"></string>
     <string name="bot1">Poemas</string>
     <string name="bot2">Quiz</string>
-    <string name="bot3">Bibliografia do autor</string>
-    <string name="bot4">Ajuda quiz</string>
+    <string name="bot3">Biografia do autor</string>
+    <string name="bot4">Referências Bibliográficas</string>
     <string name="titulo">Ferreira Gullar</string>
-    <string name="title_activity_pergunta">Pergunta</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_perguntas">Perguntas</string>
+    <string name="title_activity_pergunta"></string>
+    <string name="title_activity_perguntas"></string>
     <string name="title_activity_selecao_quiz"></string>
     <string name="title_activity_selecionar_poemas"></string>
     <string name="title_activity_activity_poema"></string>

@@ -1,5 +1,6 @@
 package br.edu.ifgoiano.ferreiraGullar.poemas;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import br.edu.ifgoiano.ferreiraGullar.R;
 
+@SuppressLint("NewApi")
 public class ActivityPoema extends Activity {
 
 	private FragmentManager fm = getFragmentManager();

@@ -1,5 +1,6 @@
 package br.edu.ifgoiano.ferreiraGullar.biografia;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -8,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import br.edu.ifgoiano.ferreiraGullar.R;
 
+@SuppressLint("NewApi")
 public class ActivityBiografia extends Activity {
 
 	private FragmentManager fm = getFragmentManager();
