@@ -35,6 +35,7 @@ public class SelecaoQuiz extends Activity {
 
 		} catch (Exception e) {
 			Toast.makeText(this, "Erro leitura arquivos", Toast.LENGTH_LONG).show();
+
 		}
 
 	}
@@ -66,6 +67,7 @@ public class SelecaoQuiz extends Activity {
 		startActivity(i);
 
 	}
+
 
 	public void quiz5(View x) {
 
@@ -117,6 +119,7 @@ public class SelecaoQuiz extends Activity {
 				}
 			} else {
 				criarArquivo();
+
 
 			}
 		} catch (FileNotFoundException fnex) {

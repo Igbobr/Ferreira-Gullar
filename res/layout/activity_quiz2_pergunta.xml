@@ -111,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/layout_shadow_gray"
+                    android:background="@drawable/layout_shadow_green"
                     android:onClick="avancar"
                     android:text="Avançar" />
             </LinearLayout>
