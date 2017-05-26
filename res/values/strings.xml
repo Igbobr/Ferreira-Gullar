@@ -151,5 +151,9 @@ Autobiografia Poética e Outros Textos, 2016</string>
     <string name="title_activity_quiz9_pergunta">Quiz9Pergunta</string>
     <string name="title_activity_quiz8_pergunta">Quiz8Pergunta</string>
     <string name="title_activity_quiz4_pergunta">Quiz4Pergunta</string>
+    <string name="title_activity_quiz5_pergunta">Quiz5Pergunta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_quiz6_pergunta">Quiz6Pergunta</string>
+    <string name="title_activity_quiz7_pergunta">Quiz7Pergunta</string>
 
 </resources>

@@ -53,7 +53,7 @@ public class Quiz1Pergunta extends Activity {
 		try {
 			t.setText("O pronome reflexivo 'traduzir-se' passa ao leitor");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("que o autor gosta de demonstrar os antagonismos"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("a ideia de naturezas opostas dentro de nós."));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("a naturezas e sentimentos dentro de nós"));
 			((RadioButton) rg.getChildAt(2))
 					.setText(String.valueOf(" a  ideia da natureza do ser humano e sua cultura contraditória ."));
 
@@ -80,7 +80,7 @@ public class Quiz1Pergunta extends Activity {
 				((RadioButton) rg.getChildAt(0))
 						.setText(String.valueOf("que o autor gosta de demonstrar os antagonismos"));
 				((RadioButton) rg.getChildAt(1))
-						.setText(String.valueOf("a ideia de naturezas opostas dentro de nós."));
+						.setText(String.valueOf("a naturezas e sentimentos dentro de nós"));
 				((RadioButton) rg.getChildAt(2))
 						.setText(String.valueOf("a  ideia da natureza do ser humano e sua cultura contraditória ."));
 
@@ -146,7 +146,7 @@ public class Quiz1Pergunta extends Activity {
 
 	public void respostaCerta(String i) {
 		if (contador == 0) {
-			if (i.equals("a ideia de naturezas opostas dentro de nós.")) {
+			if (i.equals("a naturezas e sentimentos dentro de nós")) {
 				nota = nota + 1;
 			}
 

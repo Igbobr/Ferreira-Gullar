@@ -66,6 +66,18 @@
             android:name=".Quiz4Pergunta"
             android:label="@string/title_activity_quiz4_pergunta" >
         </activity>
+        <activity
+            android:name=".Quiz5Pergunta"
+            android:label="@string/title_activity_quiz5_pergunta" >
+        </activity>
+        <activity
+            android:name=".Quiz6Pergunta"
+            android:label="@string/title_activity_quiz6_pergunta" >
+        </activity>
+        <activity
+            android:name=".Quiz7Pergunta"
+            android:label="@string/title_activity_quiz7_pergunta" >
+        </activity>
     </application>
 
 </manifest>

@@ -34,7 +34,7 @@ public class SelecaoQuiz extends Activity {
 			lerArquivo();
 
 		} catch (Exception e) {
-			Toast.makeText(this,e.getMessage(), Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Erro leitura arquivos", Toast.LENGTH_LONG).show();
 		}
 
 	}
@@ -45,46 +45,68 @@ public class SelecaoQuiz extends Activity {
 		startActivity(i);
 
 	}
-	
+
 	public void quiz2(View x) {
 
 		Intent i = new Intent(this, Quiz2Pergunta.class);
 		startActivity(i);
 
 	}
+
 	public void quiz3(View x) {
 
 		Intent i = new Intent(this, Quiz3Pergunta.class);
 		startActivity(i);
 
 	}
+
 	public void quiz4(View x) {
 
 		Intent i = new Intent(this, Quiz4Pergunta.class);
 		startActivity(i);
 
 	}
+
+	public void quiz5(View x) {
+
+		Intent i = new Intent(this, Quiz5Pergunta.class);
+		startActivity(i);
+
+	}
+
+	public void quiz6(View x) {
+
+		Intent i = new Intent(this, Quiz6Pergunta.class);
+		startActivity(i);
+
+	}
+
+	public void quiz7(View x) {
+
+		Intent i = new Intent(this, Quiz7Pergunta.class);
+		startActivity(i);
+
+	}
+
 	public void quiz8(View x) {
 
 		Intent i = new Intent(this, Quiz8Pergunta.class);
 		startActivity(i);
 
 	}
-	
-	
+
 	public void quiz9(View x) {
 
 		Intent i = new Intent(this, Quiz9Pergunta.class);
 		startActivity(i);
 
 	}
-	
 
 	public void lerArquivo() {
 		String dados = "baaaaaaaa";
 		try {
 			File arquivo = getFileStreamPath("meuArquivo");
-			
+
 			if (arquivo.exists()) {
 				FileInputStream arquivoLido = openFileInput("meuArquivo");
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(arquivoLido));
@@ -95,12 +117,11 @@ public class SelecaoQuiz extends Activity {
 				}
 			} else {
 				criarArquivo();
-				Toast.makeText(this, "",Toast.LENGTH_LONG).show();
 
 			}
 		} catch (FileNotFoundException fnex) {
 			criarArquivo();
-			Toast.makeText(this, "Arquivo Criado 2",Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Arquivo Criado 2", Toast.LENGTH_LONG).show();
 
 		} catch (IOException ioex) {
 			ioex.printStackTrace();
@@ -120,9 +141,9 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//------------------------------------------------------
-		 q = String.valueOf(dados.charAt(1));
-		 t = (TextView) findViewById(R.id.quiz2);
+		// ------------------------------------------------------
+		q = String.valueOf(dados.charAt(1));
+		t = (TextView) findViewById(R.id.quiz2);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -132,10 +153,10 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		
-		//---------------------------------------------------------
+
+		// ---------------------------------------------------------
 		q = String.valueOf(dados.charAt(2));
-		 t = (TextView) findViewById(R.id.quiz3);
+		t = (TextView) findViewById(R.id.quiz3);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -145,9 +166,9 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//----------------------------------------------------------
+		// ----------------------------------------------------------
 		q = String.valueOf(dados.charAt(2));
-		 t = (TextView) findViewById(R.id.quiz3);
+		t = (TextView) findViewById(R.id.quiz3);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -157,11 +178,11 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-	
-		//---------------------------------------------------------
-		
+
+		// ---------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(3));
-		 t = (TextView) findViewById(R.id.quiz4);
+		t = (TextView) findViewById(R.id.quiz4);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -171,10 +192,10 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//------------------------------------------------------------
-		
+		// ------------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(4));
-		 t = (TextView) findViewById(R.id.quiz5);
+		t = (TextView) findViewById(R.id.quiz5);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -184,10 +205,10 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-------------------------------------------------------------
-		
+		// -------------------------------------------------------------
+
 		q = String.valueOf(dados.charAt(5));
-		 t = (TextView) findViewById(R.id.quiz6);
+		t = (TextView) findViewById(R.id.quiz6);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -197,9 +218,9 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-----------------------------------------------------------------------
+		// -----------------------------------------------------------------------
 		q = String.valueOf(dados.charAt(6));
-		 t = (TextView) findViewById(R.id.quiz7);
+		t = (TextView) findViewById(R.id.quiz7);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -209,9 +230,9 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-		//-------------------------------------------------------------
+		// -------------------------------------------------------------
 		q = String.valueOf(dados.charAt(7));
-		 t = (TextView) findViewById(R.id.quiz8);
+		t = (TextView) findViewById(R.id.quiz8);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -221,9 +242,9 @@ public class SelecaoQuiz extends Activity {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom2);
 
 		}
-	//-------------------------------------------------------------------
+		// -------------------------------------------------------------------
 		q = String.valueOf(dados.charAt(8));
-		 t = (TextView) findViewById(R.id.quiz9);
+		t = (TextView) findViewById(R.id.quiz9);
 		if (q.equals("a")) {
 			t.setCompoundDrawablesWithIntrinsicBounds(null, drawableTop, null, drawablebottom);
 			t.setClickable(false);
@@ -242,7 +263,6 @@ public class SelecaoQuiz extends Activity {
 			String data = "baaaaaaaa";
 			arquivo.write(data.getBytes());
 			arquivo.close();
-		
 
 		} catch (FileNotFoundException fnex) {
 			fnex.printStackTrace();
@@ -250,6 +270,5 @@ public class SelecaoQuiz extends Activity {
 			ioex.printStackTrace();
 		}
 	}
-			
-	
+
 }

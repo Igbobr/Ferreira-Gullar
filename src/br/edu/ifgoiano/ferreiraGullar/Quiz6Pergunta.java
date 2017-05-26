@@ -3,22 +3,21 @@ package br.edu.ifgoiano.ferreiraGullar;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Quiz9Pergunta extends Activity {
+public class Quiz6Pergunta extends Activity {
 	int contador = 0, nota = 0;
 	private RadioGroup rg;
 	private TextView t;
@@ -29,17 +28,17 @@ public class Quiz9Pergunta extends Activity {
 	@SuppressLint("NewApi")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_quiz9_pergunta);
-		
-		getWindow().getDecorView()
-		.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
-getWindow().setStatusBarColor(Color.TRANSPARENT);
+		setContentView(R.layout.activity_quiz6_pergunta);
 
-		b1 = (Button) findViewById(R.id.botaoAvancarq9);
-		b2 = (Button) findViewById(R.id.botaoVoltarq9);
-		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz9);
-		t = (TextView) findViewById(R.id.enunciadoquiz9);
-		rg = (RadioGroup) findViewById(R.id.quiz9radio);
+		getWindow().getDecorView()
+				.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+		getWindow().setStatusBarColor(Color.TRANSPARENT);
+
+		b1 = (Button) findViewById(R.id.botaoAvancarq6);
+		b2 = (Button) findViewById(R.id.botaoVoltarq6);
+		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz6);
+		t = (TextView) findViewById(R.id.enunciadoquiz6);
+		rg = (RadioGroup) findViewById(R.id.quiz6radio);
 
 		rg.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
@@ -52,9 +51,9 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 		});
 
 		try {
-			t.setText("	Verdadeiro ou Falso? A morte é um dos temas que perpassa a \n produção poética de Ferreira Gullar, a exemplo do poema “Meu pai”");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+			t.setText("Sobre o poema “Não há vagas”:O poema não tem pontuação, que é uma característica do modernismo ");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
 			
 
 		} catch (Exception e) {
@@ -63,6 +62,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 	}
 
 	public void avancar(View arg0) {
+		ed.setText("");
 		try {
 			RadioButton radio = (RadioButton) findViewById(rg.getCheckedRadioButtonId());
 			respostaCerta(radio.getText().toString());
@@ -75,33 +75,34 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		if (contador == 0) {
 			try {
-				t.setText("Verdadeiro ou Falso? A morte é um dos temas que perpassa a \n produção poética de Ferreira Gullar, a exemplo do poema “Meu pai”");
-				((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-				((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+				t.setText("Sobre o poema “Não há vagas”:O poema não tem pontuação, que é uma característica do modernismo ");
+				((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+				((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
+				
 
 			} catch (Exception e) {
 				Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
 			}
 		}
 		if (contador == 1) {
-			t.setText("Verdadeiro ou Falso? O poema “Meu pai” pode ser considerado um “poema-narrativo”, pois narra uma história sobre o pai do eu lírico");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
-
+			t.setText("Sobre o poema 'não há vagas': o poema aborda a situação do trabalhador que procura meios de sustento e precisa enfrentar o alto preço dos gêneros de primeira necessidade (feijão e arroz");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
+			
 		} else if (contador == 2) {
-			t.setText("Verdadeiro ou Falso?	É possível evidenciar a preocupação do poeta com as mazelas sociais que afligem a sociedade, a exemplo da falta de recursos para tratar de problemas de saúde ");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+			t.setText("Sobre o poema “Não há vagas”: No poema, há uma crítica ao Funcionalismo Público.");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
 			
 		} else if (contador == 3) {
-			t.setText("Verdadeirou ou Falso? Percebe-se a ironia nos últimos cinco versos do poema, quando o pai do eu lírico guarda a nota de compra dos óculos no bolso");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+			t.setText("Sobre o poema “Não há vagas”: 4)	O substantivo “sonegação”, que também não cabe no poema, é um substantivo concreto ");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
 
 		} else if (contador == 4) {
-			t.setText("Verdadeirou ou Falso? mas perdeu os óculos na viagem” é uma oração coordenada conclusiva. ");
-			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
-			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+			t.setText("5)	O poema é metalinguístico, pois discute o próprio fazer poético, além de abordar o sentido e a função da poesia");
+			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Certo"));
+			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Errado"));
 		}
 		if (contador == 5) {
 			if ((nota == 4) || (nota == 5)) {
@@ -110,9 +111,9 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b1.setClickable(false);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
-				ed.setText("");
+				ed.setText("Parabéns você passou para o proximo Quiz 7 e desbloqueou o poema 7.");
 				recriarAquivo();
-				t.setText("Parabéns você passou todas as etapas, agora você sabe o minímo do escritor Ferreira Gullar. ");
+				t.setText(" ");
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);
@@ -120,7 +121,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b2.setVisibility(arg0.INVISIBLE);
 				b1.setClickable(false);
 				b2.setClickable(false);
-				ed.setText("Não foi dessa vez, mas não desanime tente novamente. Sua nota é : " + nota);
+				ed.setText("Não foi dessa vez, mas não desanime tente novamente. Nota:" + nota);
 				t.setText(" ");
 			}
 		}
@@ -137,31 +138,31 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 	public void respostaCerta(String i) {
 		if (contador == 0) {
-			if (i.equals("Verdadeiro")) {
+			if (i.equals("Certo")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 1) {
-			if (i.equals("Verdadeiro")) {
+			if (i.equals("Certo")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 2) {
-			if (i.equals("Verdadeiro")) {
+			if (i.equals("Certo")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 3) {
-			if (i.equals("Verdadeiro")) {
+			if (i.equals("Errado")) {
 				nota = nota + 1;
 			}
 
 		}
 		if (contador == 4) {
-			if (i.equals("Falso")) {
+			if (i.equals("Certo")) {
 				nota = nota + 1;
 			}
 
@@ -184,7 +185,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo", MODE_APPEND);
-			String data = "ccccccccc";
+			String data = "ccccccbaa";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 
@@ -196,7 +197,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo2", MODE_APPEND);
-			String data = "ccccccccc";
+			String data = "ccccccbaa";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 

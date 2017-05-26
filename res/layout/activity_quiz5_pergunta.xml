@@ -29,7 +29,7 @@
                 android:paddingTop="10dp" >
 
                 <TextView
-                    android:id="@+id/enunciadoquiz4"
+                    android:id="@+id/enunciadoquiz5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
@@ -40,7 +40,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextEnunciadoQuiz4"
+                    android:id="@+id/editTextEnunciadoQuiz5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:editable="false"
@@ -57,7 +57,7 @@
                 android:orientation="vertical" >
 
                 <RadioGroup
-                    android:id="@+id/quiz4radio"
+                    android:id="@+id/quiz5radio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
@@ -65,7 +65,7 @@
                     android:gravity="center" >
 
                     <RadioButton
-                        android:id="@+id/rb01q4"
+                        android:id="@+id/rb01q5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -73,7 +73,7 @@
                         android:textColor="#FFFFFF" />
 
                     <RadioButton
-                        android:id="@+id/rb02q4"
+                        android:id="@+id/rb02q5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -81,7 +81,7 @@
                         android:textColor="#FFFFFF" />
 
                     <RadioButton
-                        android:id="@+id/rb03q4"
+                        android:id="@+id/rb03q5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -98,7 +98,7 @@
                     android:orientation="horizontal" >
 
                     <Button
-                        android:id="@+id/botaoVoltarq4"
+                        android:id="@+id/botaoVoltarq5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -108,7 +108,7 @@
                         android:text="Voltar" />
 
                     <Button
-                        android:id="@+id/botaoAvancarq4"
+                        android:id="@+id/botaoAvancarq5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

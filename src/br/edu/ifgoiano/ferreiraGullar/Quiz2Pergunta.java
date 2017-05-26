@@ -64,6 +64,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 	}
 
 	public void avancar(View arg0) {
+		ed.setText("");
 		try {
 			RadioButton radio = (RadioButton) findViewById(rg.getCheckedRadioButtonId());
 			respostaCerta(radio.getText().toString());
@@ -121,6 +122,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				rg.setVisibility(arg0.INVISIBLE);
 				ed.setText("Parabéns você passou para o proximo Quiz 3 e desbloqueou o poema 3.");
 				t.setText(" ");
+				recriarAquivo();
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);

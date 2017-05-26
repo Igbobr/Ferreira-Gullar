@@ -121,6 +121,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				rg.setVisibility(arg0.INVISIBLE);
 				ed.setText("Parabéns você passou para o proximo Quiz 4 e desbloqueou o poema 4.");
 				t.setText(" ");
+				recriarAquivo();
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);

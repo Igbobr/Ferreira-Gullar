@@ -41,6 +41,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 		t = (TextView) findViewById(R.id.enunciadoquiz8);
 		rg = (RadioGroup) findViewById(R.id.quiz8radio);
 
+
 		rg.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
@@ -89,12 +90,12 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 
 		} else if (contador == 2) {
-			t.setText("Verdadeiro ou Falso?	3)	“Se” , no verso “Se acaso você não possa”, é um pronome oblíquo átono");
+			t.setText("Verdadeiro ou Falso?	“Se” , no verso “Se acaso você não possa”, é um pronome oblíquo átono");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 			
 		} else if (contador == 3) {
-			t.setText("Verdadeirou ou Falso?4)	O título “Cantiga para não morrer” remete o leitor às cantigas de amor medievais");
+			t.setText("Verdadeirou ou Falso?O título “Cantiga para não morrer” remete o leitor às cantigas de amor medievais");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 
@@ -112,6 +113,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				rg.setVisibility(arg0.INVISIBLE);
 				ed.setText("Parabéns você passou para o proximo Quiz 9 e desbloqueou o poema 9.");
 				t.setText(" ");
+				recriarAquivo();
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);

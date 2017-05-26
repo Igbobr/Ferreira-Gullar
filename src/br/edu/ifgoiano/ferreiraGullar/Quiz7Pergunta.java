@@ -18,7 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Quiz9Pergunta extends Activity {
+public class Quiz7Pergunta extends Activity {
 	int contador = 0, nota = 0;
 	private RadioGroup rg;
 	private TextView t;
@@ -29,17 +29,18 @@ public class Quiz9Pergunta extends Activity {
 	@SuppressLint("NewApi")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_quiz9_pergunta);
-		
+		setContentView(R.layout.activity_quiz7_pergunta);
+
 		getWindow().getDecorView()
 		.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 getWindow().setStatusBarColor(Color.TRANSPARENT);
+		
+		b1 = (Button) findViewById(R.id.botaoAvancarq7);
+		b2 = (Button) findViewById(R.id.botaoVoltarq7);
+		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz7);
+		t = (TextView) findViewById(R.id.enunciadoquiz7);
+		rg = (RadioGroup) findViewById(R.id.quiz7radio);
 
-		b1 = (Button) findViewById(R.id.botaoAvancarq9);
-		b2 = (Button) findViewById(R.id.botaoVoltarq9);
-		ed = (EditText) findViewById(R.id.editTextEnunciadoQuiz9);
-		t = (TextView) findViewById(R.id.enunciadoquiz9);
-		rg = (RadioGroup) findViewById(R.id.quiz9radio);
 
 		rg.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
@@ -52,7 +53,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 		});
 
 		try {
-			t.setText("	Verdadeiro ou Falso? A morte é um dos temas que perpassa a \n produção poética de Ferreira Gullar, a exemplo do poema “Meu pai”");
+			t.setText("	Sobre o poema “MAR AZUL”: Mar azul” é um poema que explora o uso de apenas cinco substantivos e um adjetivo");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 			
@@ -75,31 +76,32 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		if (contador == 0) {
 			try {
-				t.setText("Verdadeiro ou Falso? A morte é um dos temas que perpassa a \n produção poética de Ferreira Gullar, a exemplo do poema “Meu pai”");
+				t.setText("	Sobre o poema “MAR AZUL”: Mar azul” é um poema que explora o uso de apenas cinco substantivos e um adjetivo");
 				((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 				((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
+				
 
 			} catch (Exception e) {
 				Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
 			}
 		}
 		if (contador == 1) {
-			t.setText("Verdadeiro ou Falso? O poema “Meu pai” pode ser considerado um “poema-narrativo”, pois narra uma história sobre o pai do eu lírico");
+			t.setText("Sobre o poema “MAR AZUL”: Azul” é um adjetivo comum em todos os versos");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 
 		} else if (contador == 2) {
-			t.setText("Verdadeiro ou Falso?	É possível evidenciar a preocupação do poeta com as mazelas sociais que afligem a sociedade, a exemplo da falta de recursos para tratar de problemas de saúde ");
+			t.setText("Sobre o poema “MAR AZUL”: A leitura progressiva do texto permite um efeito fônico, provocado pela repetição de letras e sons que comprovam a filiação do texto ao movimento concretista");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 			
 		} else if (contador == 3) {
-			t.setText("Verdadeirou ou Falso? Percebe-se a ironia nos últimos cinco versos do poema, quando o pai do eu lírico guarda a nota de compra dos óculos no bolso");
+			t.setText("O adjetivo “azul” pode remeter tanto à ideia da cor do céu quanto da cor do mar, que acaba também dando uma tonalidade “azul” ao barco");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 
 		} else if (contador == 4) {
-			t.setText("Verdadeirou ou Falso? mas perdeu os óculos na viagem” é uma oração coordenada conclusiva. ");
+			t.setText("A repetição constante da vogal “a” remete ao uso da figura de linguagem denominada aliteração");
 			((RadioButton) rg.getChildAt(0)).setText(String.valueOf("Verdadeiro"));
 			((RadioButton) rg.getChildAt(1)).setText(String.valueOf("Falso"));
 		}
@@ -110,9 +112,9 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b1.setClickable(false);
 				b2.setClickable(false);
 				rg.setVisibility(arg0.INVISIBLE);
-				ed.setText("");
+				ed.setText("Parabéns você passou para o proximo Quiz 9 e desbloqueou o poema 9.");
+				t.setText(" ");
 				recriarAquivo();
-				t.setText("Parabéns você passou todas as etapas, agora você sabe o minímo do escritor Ferreira Gullar. ");
 
 			} else {
 				rg.setVisibility(arg0.INVISIBLE);
@@ -120,7 +122,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 				b2.setVisibility(arg0.INVISIBLE);
 				b1.setClickable(false);
 				b2.setClickable(false);
-				ed.setText("Não foi dessa vez, mas não desanime tente novamente. Sua nota é : " + nota);
+				ed.setText("Não foi dessa vez, mas não desanime tente novamente. sua nota é: " + nota);
 				t.setText(" ");
 			}
 		}
@@ -184,7 +186,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo", MODE_APPEND);
-			String data = "ccccccccc";
+			String data = "cccccccba";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 
@@ -196,7 +198,7 @@ getWindow().setStatusBarColor(Color.TRANSPARENT);
 
 		try {
 			FileOutputStream arquivo = openFileOutput("meuArquivo2", MODE_APPEND);
-			String data = "ccccccccc";
+			String data = "cccccccba";
 			arquivo.write(data.getBytes());
 			arquivo.close();
 
